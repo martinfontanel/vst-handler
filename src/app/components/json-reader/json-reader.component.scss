@@ -1,8 +1,17 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap:2em
+}
 .parameter{
     display: flex;
-    width: 20%;
     justify-content: space-between;
+    flex: 2;
 }
 .parameter:hover{
     background-color: beige;
+}
+.export{
+    flex:5;
 }

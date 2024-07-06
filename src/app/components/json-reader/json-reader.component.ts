@@ -30,6 +30,7 @@ export class JsonReaderComponent {
   }
 
   loadFile(){
+    this.typeParamOf = [];
     this.loaded$ = this.dataLoader.getVSTData(this.url + ".json");
     this.loaded$.subscribe(value=>{
       value.parameters.map(val=>{
@@ -43,7 +44,6 @@ export class JsonReaderComponent {
   }
 
   submit(){
-    console.log("bonjour")
     this.loaded$.subscribe(value=>{
       value.type = this.type;
       value.parameters.map((val, key)=>{

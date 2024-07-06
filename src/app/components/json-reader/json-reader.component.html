@@ -6,38 +6,41 @@
         }
     }
 </select>
-@if(loaded$ | async){
-    <div>
-        <h1>
-            {{(loaded$ | async)?.vstName}}
-        </h1>
+<div class="content">
+    @if(loaded$ | async){
         <div>
-            type : 
-            @if((loaded$ | async)?.type === "" || (loaded$ | async)?.type === undefined){
-                <input [(ngModel)]="type">
-            }
+            <h1>
+                {{(loaded$ | async)?.vstName}}
+            </h1>
+            <div>
+                type : 
+                @if((loaded$ | async)?.type === "" || (loaded$ | async)?.type === undefined){
+                    <input [(ngModel)]="type">
+                }
+            </div>
+            <h2>Paramètres</h2>
+            <ul>
+                @for(param of (loaded$ | async)?.parameters; track $index){
+                    <li class="parameter">
+                        <span>{{param.name}}</span>
+                        <select [(ngModel)]="typeParamOf[$index]">
+                            @for(type of typeParam; track $index){
+                                <option>{{type}}</option>
+                            }
+                        </select>
+                    </li>
+                }
+            </ul>
+            <button (click)="submit()">
+                ENREGISTRER
+            </button>
         </div>
-        <h2>Paramètres</h2>
-        <ul>
-            @for(param of (loaded$ | async)?.parameters; track $index){
-                <li class="parameter">
-                    <span>{{param.name}}</span>
-                    <select [(ngModel)]="typeParamOf[$index]">
-                        @for(type of typeParam; track $index){
-                            <option>{{type}}</option>
-                        }
-                    </select>
-                </li>
-            }
-        </ul>
-        <button (click)="submit()">
-            ENREGISTRER
-        </button>
-    </div>
-    
-}
-@if(globalExport !== ""){
-    <div>
-        {{globalExport}}
-    </div>
-}
+        
+    }
+    @if(globalExport !== ""){
+        <div class="export">
+            {{globalExport}}
+        </div>
+    }
+</div>
+
