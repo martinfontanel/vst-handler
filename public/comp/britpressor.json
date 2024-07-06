@@ -1,0 +1,73 @@
+{
+  "vstName": "Britpressor",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Compressor Threshold",
+      "type": ""
+    },
+    {
+      "name": "Limit Level",
+      "type": ""
+    },
+    {
+      "name": "Gain",
+      "type": ""
+    },
+    {
+      "name": "Mix",
+      "type": ""
+    },
+    {
+      "name": "Ratio",
+      "type": ""
+    },
+    {
+      "name": "High",
+      "type": ""
+    },
+    {
+      "name": "Mid",
+      "type": ""
+    },
+    {
+      "name": "High Pass Filter",
+      "type": ""
+    },
+    {
+      "name": "Compressor Recovery Time",
+      "type": ""
+    },
+    {
+      "name": "Level Recovery Time",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "External Sidechain",
+      "type": ""
+    },
+    {
+      "name": "Oversample",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

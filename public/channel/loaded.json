@@ -1,0 +1,181 @@
+{
+    "vstName": "LOADED",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Preamp Gain",
+        "type": ""
+      },
+      {
+        "name": "Preamp HPF",
+        "type": ""
+      },
+      {
+        "name": "Main Input",
+        "type": ""
+      },
+      {
+        "name": "Main Output",
+        "type": ""
+      },
+      {
+        "name": "De-Esser Release",
+        "type": ""
+      },
+      {
+        "name": "De-Esser Threshold",
+        "type": ""
+      },
+      {
+        "name": "De-Esser Mix",
+        "type": ""
+      },
+      {
+        "name": "Gate Mix",
+        "type": ""
+      },
+      {
+        "name": "Gate Release",
+        "type": ""
+      },
+      {
+        "name": "Gate Threshold",
+        "type": ""
+      },
+      {
+        "name": "Low Gain",
+        "type": ""
+      },
+      {
+        "name": "Low Mid Freq",
+        "type": ""
+      },
+      {
+        "name": "Low Mid Gain",
+        "type": ""
+      },
+      {
+        "name": "High Mid Freq",
+        "type": ""
+      },
+      {
+        "name": "High Mid Gain",
+        "type": ""
+      },
+      {
+        "name": "High Gain",
+        "type": ""
+      },
+      {
+        "name": "Compressor Threshold",
+        "type": ""
+      },
+      {
+        "name": "Compressor Ratio",
+        "type": ""
+      },
+      {
+        "name": "Compressor Mix",
+        "type": ""
+      },
+      {
+        "name": "Preamp Bypass",
+        "type": ""
+      },
+      {
+        "name": "Preamp PAD",
+        "type": ""
+      },
+      {
+        "name": "Preamp Phase",
+        "type": ""
+      },
+      {
+        "name": "Preamp HPF Switch",
+        "type": ""
+      },
+      {
+        "name": "Preamp MIC",
+        "type": ""
+      },
+      {
+        "name": "Preamp Low Boost",
+        "type": ""
+      },
+      {
+        "name": "Preamp High Boost",
+        "type": ""
+      },
+      {
+        "name": "Preamp Transformer",
+        "type": ""
+      },
+      {
+        "name": "Main Bypass",
+        "type": ""
+      },
+      {
+        "name": "De-Esser Bypass",
+        "type": ""
+      },
+      {
+        "name": "De-Esser Band",
+        "type": ""
+      },
+      {
+        "name": "De-Esser Soft",
+        "type": ""
+      },
+      {
+        "name": "Gate Bypass",
+        "type": ""
+      },
+      {
+        "name": "Gate Fast Attack",
+        "type": ""
+      },
+      {
+        "name": "EQ Bypass",
+        "type": ""
+      },
+      {
+        "name": "Compressor Bypass",
+        "type": ""
+      },
+      {
+        "name": "Compressor Fast Attack",
+        "type": ""
+      },
+      {
+        "name": "Compressor Auto Release",
+        "type": ""
+      },
+      {
+        "name": "Compressor External Sidechain",
+        "type": ""
+      },
+      {
+        "name": "Compressor External Sidechain",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

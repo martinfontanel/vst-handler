@@ -1,0 +1,129 @@
+{
+    "vstName": "PolyComp",
+    "parameters": [
+      {
+        "name": "HQ",
+        "type": ""
+      },
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "RMS",
+        "type": ""
+      },
+      {
+        "name": "Low Crossover",
+        "type": ""
+      },
+      {
+        "name": "High Crossover",
+        "type": ""
+      },
+      {
+        "name": "Low Threshold",
+        "type": ""
+      },
+      {
+        "name": "Low Ratio",
+        "type": ""
+      },
+      {
+        "name": "Low Attack",
+        "type": ""
+      },
+      {
+        "name": "Low Release",
+        "type": ""
+      },
+      {
+        "name": "Low Gain",
+        "type": ""
+      },
+      {
+        "name": "Low Switch",
+        "type": ""
+      },
+      {
+        "name": "Mid Threshold",
+        "type": ""
+      },
+      {
+        "name": "Mid Ratio",
+        "type": ""
+      },
+      {
+        "name": "Mid Attack",
+        "type": ""
+      },
+      {
+        "name": "Mid Release",
+        "type": ""
+      },
+      {
+        "name": "Mid Gain",
+        "type": ""
+      },
+      {
+        "name": "Mid Switch",
+        "type": ""
+      },
+      {
+        "name": "High Threshold",
+        "type": ""
+      },
+      {
+        "name": "High Ratio",
+        "type": ""
+      },
+      {
+        "name": "High Attack",
+        "type": ""
+      },
+      {
+        "name": "High Release",
+        "type": ""
+      },
+      {
+        "name": "High Gain",
+        "type": ""
+      },
+      {
+        "name": "High Switch",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Input Gain",
+        "type": ""
+      },
+      {
+        "name": "Output Gain",
+        "type": ""
+      },
+      {
+        "name": "Sidechain",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

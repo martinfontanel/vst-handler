@@ -1,0 +1,57 @@
+{
+    "vstName": "bx_opto",
+    "parameters": [
+      {
+        "name": "Speed",
+        "type": ""
+      },
+      {
+        "name": "Peak Reduction",
+        "type": ""
+      },
+      {
+        "name": "Output Gain",
+        "type": ""
+      },
+      {
+        "name": "Sidechain Filter Type",
+        "type": ""
+      },
+      {
+        "name": "Sidechain Frequency",
+        "type": ""
+      },
+      {
+        "name": "Sidechain Off/On/Solo",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Bank",
+        "type": ""
+      },
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

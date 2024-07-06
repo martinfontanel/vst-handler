@@ -1,0 +1,37 @@
+{
+    "vstName": "FREE87 FR-COMP",
+    "parameters": [
+      {
+        "name": "Attack",
+        "type": ""
+      },
+      {
+        "name": "MakeUp",
+        "type": ""
+      },
+      {
+        "name": "Limiter",
+        "type": ""
+      },
+      {
+        "name": "Release",
+        "type": ""
+      },
+      {
+        "name": "Thrshld",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

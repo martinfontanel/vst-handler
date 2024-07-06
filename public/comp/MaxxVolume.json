@@ -1,0 +1,61 @@
+{
+  "vstName": "MaxxVolume",
+  "parameters": [
+    {
+      "name": "Low Level Thresh",
+      "type": ""
+    },
+    {
+      "name": "Low Level Gain",
+      "type": ""
+    },
+    {
+      "name": "Gate",
+      "type": ""
+    },
+    {
+      "name": "Leveler",
+      "type": ""
+    },
+    {
+      "name": "High Level Thresh",
+      "type": ""
+    },
+    {
+      "name": "High Level Gain",
+      "type": ""
+    },
+    {
+      "name": "Leveler On",
+      "type": ""
+    },
+    {
+      "name": "Gate On",
+      "type": ""
+    },
+    {
+      "name": "High Level Thresh On",
+      "type": ""
+    },
+    {
+      "name": "Low Level Thresh On",
+      "type": ""
+    },
+    {
+      "name": "ARC Type",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

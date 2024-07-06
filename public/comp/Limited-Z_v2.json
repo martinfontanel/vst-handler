@@ -1,0 +1,97 @@
+{
+  "vstName": "Limited-Z_v2",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Input Trim",
+      "type": ""
+    },
+    {
+      "name": "Amount",
+      "type": ""
+    },
+    {
+      "name": "Margin Level",
+      "type": ""
+    },
+    {
+      "name": "Margin Setting",
+      "type": ""
+    },
+    {
+      "name": "Meter Type",
+      "type": ""
+    },
+    {
+      "name": "Meter View",
+      "type": ""
+    },
+    {
+      "name": "Auto Gain Compare",
+      "type": ""
+    },
+    {
+      "name": "History",
+      "type": ""
+    },
+    {
+      "name": "dB Scale",
+      "type": ""
+    },
+    {
+      "name": "Oversample Mode",
+      "type": ""
+    },
+    {
+      "name": "Oversample Rate",
+      "type": ""
+    },
+    {
+      "name": "ISP Protect",
+      "type": ""
+    },
+    {
+      "name": "Meter View",
+      "type": ""
+    },
+    {
+      "name": "Show Input Wave",
+      "type": ""
+    },
+    {
+      "name": "Show Output Wave",
+      "type": ""
+    },
+    {
+      "name": "Limiter",
+      "type": ""
+    },
+    {
+      "name": "Limit Character",
+      "type": ""
+    },
+    {
+      "name": "Transient Character",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

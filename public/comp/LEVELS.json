@@ -1,0 +1,77 @@
+{
+    "vstName": "LEVELS",
+    "parameters": [
+      {
+        "name": "Compact",
+        "type": ""
+      },
+      {
+        "name": "Current Preset",
+        "type": ""
+      },
+      {
+        "name": "Current Mode",
+        "type": ""
+      },
+      {
+        "name": "Peak",
+        "type": ""
+      },
+      {
+        "name": "True Peak",
+        "type": ""
+      },
+      {
+        "name": "Short term LUFS",
+        "type": ""
+      },
+      {
+        "name": "Integrated LUFS",
+        "type": ""
+      },
+      {
+        "name": "Loudness Range",
+        "type": ""
+      },
+      {
+        "name": "Stereo Balance",
+        "type": ""
+      },
+      {
+        "name": "Stereo Correlation",
+        "type": ""
+      },
+      {
+        "name": "Dynamic Range",
+        "type": ""
+      },
+      {
+        "name": "High",
+        "type": ""
+      },
+      {
+        "name": "Low",
+        "type": ""
+      },
+      {
+        "name": "True Peak Analysis",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

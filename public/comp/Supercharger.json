@@ -1,0 +1,53 @@
+{
+    "vstName": "Supercharger",
+    "parameters": [
+      {
+        "name": "Default",
+        "type": ""
+      },
+      {
+        "name": "Input Trim",
+        "type": ""
+      },
+      {
+        "name": "Sidechain",
+        "type": ""
+      },
+      {
+        "name": "Compress",
+        "type": ""
+      },
+      {
+        "name": "Punch",
+        "type": ""
+      },
+      {
+        "name": "Dirt",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,105 @@
+{
+    "vstName": "TDR Kotelnikov",
+    "parameters": [
+      {
+        "name": "Threshold",
+        "type": ""
+      },
+      {
+        "name": "Peak Crest",
+        "type": ""
+      },
+      {
+        "name": "Soft Knee",
+        "type": ""
+      },
+      {
+        "name": "Ratio",
+        "type": ""
+      },
+      {
+        "name": "Attack",
+        "type": ""
+      },
+      {
+        "name": "Release Peak",
+        "type": ""
+      },
+      {
+        "name": "Release RMS",
+        "type": ""
+      },
+      {
+        "name": "Makeup",
+        "type": ""
+      },
+      {
+        "name": "Dry Mix",
+        "type": ""
+      },
+      {
+        "name": "Dry Wet",
+        "type": ""
+      },
+      {
+        "name": "Dry Mix Mode",
+        "type": ""
+      },
+      {
+        "name": "Out Gain",
+        "type": ""
+      },
+      {
+        "name": "SC HP Freq",
+        "type": ""
+      },
+      {
+        "name": "SC HP Slope",
+        "type": ""
+      },
+      {
+        "name": "SC Stereo Diff",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Quality",
+        "type": ""
+      },
+      {
+        "name": "Mode",
+        "type": ""
+      },
+      {
+        "name": "GR Disp Scale",
+        "type": ""
+      },
+      {
+        "name": "GR Disp Mode",
+        "type": ""
+      },
+      {
+        "name": "Program",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

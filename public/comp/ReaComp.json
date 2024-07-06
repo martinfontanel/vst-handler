@@ -1,0 +1,101 @@
+{
+    "vstName": "ReaComp",
+    "parameters": [
+      {
+        "name": "Threshold",
+        "type": ""
+      },
+      {
+        "name": "Ratio",
+        "type": ""
+      },
+      {
+        "name": "Attack",
+        "type": ""
+      },
+      {
+        "name": "Release",
+        "type": ""
+      },
+      {
+        "name": "Pre-comp",
+        "type": ""
+      },
+      {
+        "name": "resvd",
+        "type": ""
+      },
+      {
+        "name": "Lowpass",
+        "type": ""
+      },
+      {
+        "name": "Hipass",
+        "type": ""
+      },
+      {
+        "name": "SignIn",
+        "type": ""
+      },
+      {
+        "name": "AudIn",
+        "type": ""
+      },
+      {
+        "name": "Dry",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Filter Preview",
+        "type": ""
+      },
+      {
+        "name": "RMS size",
+        "type": ""
+      },
+      {
+        "name": "Knee",
+        "type": ""
+      },
+      {
+        "name": "Auto Make Up Gain",
+        "type": ""
+      },
+      {
+        "name": "Auto Release",
+        "type": ""
+      },
+      {
+        "name": "Legacy Attack/Knee Options",
+        "type": ""
+      },
+      {
+        "name": "Deprecated Broken Anti-Alias",
+        "type": ""
+      },
+      {
+        "name": "Multichannel Mode",
+        "type": ""
+      },
+      {
+        "name": "Metering Index",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

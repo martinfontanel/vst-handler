@@ -1,0 +1,65 @@
+{
+    "vstName": "bx_masterdesk Classic",
+    "parameters": [
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Preset Bank",
+        "type": ""
+      },
+      {
+        "name": "Monitoring",
+        "type": ""
+      },
+      {
+        "name": "Volume",
+        "type": ""
+      },
+      {
+        "name": "Stereo Enhance",
+        "type": ""
+      },
+      {
+        "name": "Foundation",
+        "type": ""
+      },
+      {
+        "name": "THD",
+        "type": ""
+      },
+      {
+        "name": "Output Trim",
+        "type": ""
+      },
+      {
+        "name": "Tone Adjust",
+        "type": ""
+      },
+      {
+        "name": "Tone Mode",
+        "type": ""
+      },
+      {
+        "name": "TMT Compressor Mode",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

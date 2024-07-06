@@ -1,0 +1,81 @@
+{
+  "vstName": "HQ2",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "KK",
+      "type": ""
+    },
+    {
+      "name": "Attack",
+      "type": ""
+    },
+    {
+      "name": "Release",
+      "type": ""
+    },
+    {
+      "name": "Ratio",
+      "type": ""
+    },
+    {
+      "name": "Power",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

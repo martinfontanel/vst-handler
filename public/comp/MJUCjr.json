@@ -1,0 +1,41 @@
+{
+    "vstName": "MJUCjr",
+    "parameters": [
+      {
+        "name": "Compress",
+        "type": ""
+      },
+      {
+        "name": "Makeup",
+        "type": ""
+      },
+      {
+        "name": "Timing",
+        "type": ""
+      },
+      {
+        "name": "VuMode",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,673 @@
+{
+  "vstName": "MixBox",
+  "parameters": [
+    {
+      "name": "Slot 1 Power",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 1",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 2",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 3",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 4",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 5",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 6",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 7",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 8",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 9",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 10",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 11",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 12",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 13",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 14",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 15",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 16",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 17",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 18",
+      "type": ""
+    },
+    {
+      "name": "Slot 1 Parameter 19",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Power",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 1",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 2",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 3",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 4",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 5",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 6",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 7",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 8",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 9",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 10",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 11",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 12",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 13",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 14",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 15",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 16",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 17",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 18",
+      "type": ""
+    },
+    {
+      "name": "Slot 2 Parameter 19",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Power",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 1",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 2",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 3",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 4",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 5",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 6",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 7",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 8",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 9",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 10",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 11",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 12",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 13",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 14",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 15",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 16",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 17",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 18",
+      "type": ""
+    },
+    {
+      "name": "Slot 3 Parameter 19",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Power",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 1",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 2",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 3",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 4",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 5",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 6",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 7",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 8",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 9",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 10",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 11",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 12",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 13",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 14",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 15",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 16",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 17",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 18",
+      "type": ""
+    },
+    {
+      "name": "Slot 4 Parameter 19",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Power",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 1",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 2",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 3",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 4",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 5",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 6",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 7",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 8",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 9",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 10",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 11",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 12",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 13",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 14",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 15",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 16",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 17",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 18",
+      "type": ""
+    },
+    {
+      "name": "Slot 5 Parameter 19",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Power",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 1",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 2",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 3",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 4",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 5",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 6",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 7",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 8",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 9",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 10",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 11",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 12",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 13",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 14",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 15",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 16",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 17",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 18",
+      "type": ""
+    },
+    {
+      "name": "Slot 6 Parameter 19",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Power",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 1",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 2",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 3",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 4",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 5",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 6",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 7",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 8",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 9",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 10",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 11",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 12",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 13",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 14",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 15",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 16",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 17",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 18",
+      "type": ""
+    },
+    {
+      "name": "Slot 7 Parameter 19",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Power",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 1",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 2",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 3",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 4",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 5",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 6",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 7",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 8",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 9",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 10",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 11",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 12",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 13",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 14",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 15",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 16",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 17",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 18",
+      "type": ""
+    },
+    {
+      "name": "Slot 8 Parameter 19",
+      "type": ""
+    },
+    {
+      "name": "Rack Power",
+      "type": ""
+    },
+    {
+      "name": "Rack Input Volume",
+      "type": ""
+    },
+    {
+      "name": "Rack Output Volume",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+    "vstName": "DD Expander",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "External",
+        "type": ""
+      },
+      {
+        "name": "Listen",
+        "type": ""
+      },
+      {
+        "name": "Trim",
+        "type": ""
+      },
+      {
+        "name": "Low Cut",
+        "type": ""
+      },
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "Thresh",
+        "type": ""
+      },
+      {
+        "name": "Ratio",
+        "type": ""
+      },
+      {
+        "name": "Attack",
+        "type": ""
+      },
+      {
+        "name": "Release",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

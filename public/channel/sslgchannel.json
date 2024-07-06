@@ -1,0 +1,149 @@
+{
+    "vstName": "SSLGChannel",
+    "parameters": [
+      {
+        "name": "Analog",
+        "type": ""
+      },
+      {
+        "name": "CompThresh",
+        "type": ""
+      },
+      {
+        "name": "CompRatio",
+        "type": ""
+      },
+      {
+        "name": "CompFast",
+        "type": ""
+      },
+      {
+        "name": "CompRelease",
+        "type": ""
+      },
+      {
+        "name": "ExpAttack",
+        "type": ""
+      },
+      {
+        "name": "ExpRelease",
+        "type": ""
+      },
+      {
+        "name": "ExpThresh",
+        "type": ""
+      },
+      {
+        "name": "ExpRange",
+        "type": ""
+      },
+      {
+        "name": "ExpGate",
+        "type": ""
+      },
+      {
+        "name": "EQBypass",
+        "type": ""
+      },
+      {
+        "name": "EQDynamic",
+        "type": ""
+      },
+      {
+        "name": "DynamicBypass",
+        "type": ""
+      },
+      {
+        "name": "DynaminCHOut",
+        "type": ""
+      },
+      {
+        "name": "FilterSplit",
+        "type": ""
+      },
+      {
+        "name": "HP Frq",
+        "type": ""
+      },
+      {
+        "name": "LP Frq",
+        "type": ""
+      },
+      {
+        "name": "LF Gain",
+        "type": ""
+      },
+      {
+        "name": "LF Frq",
+        "type": ""
+      },
+      {
+        "name": "LMF div3",
+        "type": ""
+      },
+      {
+        "name": "LMF Gain",
+        "type": ""
+      },
+      {
+        "name": "LMF Frq",
+        "type": ""
+      },
+      {
+        "name": "LMF Q",
+        "type": ""
+      },
+      {
+        "name": "HMF Gain",
+        "type": ""
+      },
+      {
+        "name": "HMF Frq",
+        "type": ""
+      },
+      {
+        "name": "HMF Q",
+        "type": ""
+      },
+      {
+        "name": "HMF X3",
+        "type": ""
+      },
+      {
+        "name": "HF Gain",
+        "type": ""
+      },
+      {
+        "name": "HF Frq",
+        "type": ""
+      },
+      {
+        "name": "Gain",
+        "type": ""
+      },
+      {
+        "name": "VUInOut",
+        "type": ""
+      },
+      {
+        "name": "PhaseReverse",
+        "type": ""
+      },
+      {
+        "name": "InputLevel",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }
