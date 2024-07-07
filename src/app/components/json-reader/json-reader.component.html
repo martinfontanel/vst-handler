@@ -22,8 +22,8 @@
             <ul>
                 @for(param of (loaded$ | async)?.parameters; track $index){
                     <li class="parameter">
-                        <span>{{param.name}}</span>
-                        <select [(ngModel)]="typeParamOf[$index]">
+                        <label [for]="param.name">{{param.name}}</label>
+                        <select [(ngModel)]="typeParamOf[$index]" [name]="param.name">
                             @for(type of typeParam; track $index){
                                 <option>{{type}}</option>
                             }
