@@ -1,0 +1,47 @@
+
+<select [(ngModel)]="url" (change)="loadFile()">
+    @for (dir of files; track $index) {
+        <optgroup>{{dir.dirName}}</optgroup>
+        @for(file of dir.files; track $index){
+            <option [value]="dir.dirName + '/' + file">{{file}}</option>
+        }
+    }
+</select>
+<div class="content">
+    @if(loaded$ | async){
+        <div>
+            <h1>
+                {{(loaded$ | async)?.vstName}}
+            </h1>
+            <div>
+                type : 
+                @if((loaded$ | async)?.type === "" || (loaded$ | async)?.type === undefined){
+                    <input [(ngModel)]="type">
+                }
+            </div>
+            <h2>Paramètres</h2>
+            <ul>
+                @for(param of (loaded$ | async)?.parameters; track $index){
+                    <li class="parameter">
+                        <label [for]="param.name">{{param.name}}</label>
+                        <select [(ngModel)]="typeParamOf[$index]" [name]="param.name">
+                            @for(type of typeParam; track $index){
+                                <option>{{type}}</option>
+                            }
+                        </select>
+                    </li>
+                }
+            </ul>
+            <button (click)="submit()">
+                ENREGISTRER
+            </button>
+        </div>
+        
+    }
+    @if(globalExport !== ""){
+        <div class="export">
+            {{globalExport}}
+        </div>
+    }
+</div>
+
