@@ -1,33 +1,34 @@
 {
-    "vstName": "W1 Limiter",
-    "parameters": [
-      {
-        "name": "Threshold",
-        "type": ""
-      },
-      {
-        "name": "Ceiling",
-        "type": ""
-      },
-      {
-        "name": "Release",
-        "type": ""
-      },
-      {
-        "name": "A.Release",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "W1 Limiter",
+  "parameters": [
+    {
+      "name": "Threshold",
+      "type": "knob"
+    },
+    {
+      "name": "Ceiling",
+      "type": "knob"
+    },
+    {
+      "name": "Release",
+      "type": "knob"
+    },
+    {
+      "name": "A.Release",
+      "type": "button"
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ],
+  "type": "dyn"
+}

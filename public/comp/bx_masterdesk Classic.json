@@ -1,65 +1,81 @@
 {
-    "vstName": "bx_masterdesk Classic",
-    "parameters": [
-      {
-        "name": "Power",
-        "type": ""
-      },
-      {
-        "name": "Preset Bank",
-        "type": ""
-      },
-      {
-        "name": "Monitoring",
-        "type": ""
-      },
-      {
-        "name": "Volume",
-        "type": ""
-      },
-      {
-        "name": "Stereo Enhance",
-        "type": ""
-      },
-      {
-        "name": "Foundation",
-        "type": ""
-      },
-      {
-        "name": "THD",
-        "type": ""
-      },
-      {
-        "name": "Output Trim",
-        "type": ""
-      },
-      {
-        "name": "Tone Adjust",
-        "type": ""
-      },
-      {
-        "name": "Tone Mode",
-        "type": ""
-      },
-      {
-        "name": "TMT Compressor Mode",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "bx_masterdesk Classic",
+  "parameters": [
+    {
+      "name": "Power",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Preset Bank",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Monitoring",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Volume",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Stereo Enhance",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Foundation",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "THD",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Output Trim",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "Tone Adjust",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid"
+    },
+    {
+      "name": "Tone Mode",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "TMT Compressor Mode",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

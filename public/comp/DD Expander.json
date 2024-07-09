@@ -1,57 +1,71 @@
 {
-    "vstName": "DD Expander",
-    "parameters": [
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "External",
-        "type": ""
-      },
-      {
-        "name": "Listen",
-        "type": ""
-      },
-      {
-        "name": "Trim",
-        "type": ""
-      },
-      {
-        "name": "Low Cut",
-        "type": ""
-      },
-      {
-        "name": "Input",
-        "type": ""
-      },
-      {
-        "name": "Thresh",
-        "type": ""
-      },
-      {
-        "name": "Ratio",
-        "type": ""
-      },
-      {
-        "name": "Attack",
-        "type": ""
-      },
-      {
-        "name": "Release",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "DD Expander",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "External",
+      "type": "button",
+      "category": "Ext Sidechain"
+    },
+    {
+      "name": "Listen",
+      "type": "button",
+      "category": "Delta/listen"
+    },
+    {
+      "name": "Trim",
+      "type": "knob",
+      "category": "Trim"
+    },
+    {
+      "name": "Low Cut",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "Input",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Thresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

@@ -3,75 +3,75 @@
   "parameters": [
     {
       "name": "Preset",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Input Trim",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Amount",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Margin Level",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Margin Setting",
-      "type": ""
+      "type": "indent"
     },
     {
       "name": "Meter Type",
-      "type": ""
+      "type": "indent"
     },
     {
       "name": "Meter View",
-      "type": ""
+      "type": "indent"
     },
     {
       "name": "Auto Gain Compare",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "History",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "dB Scale",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Oversample Mode",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Oversample Rate",
-      "type": ""
+      "type": "indent"
     },
     {
       "name": "ISP Protect",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Meter View",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Show Input Wave",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Show Output Wave",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Limiter",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Limit Character",
@@ -93,5 +93,6 @@
       "name": "Delta",
       "type": ""
     }
-  ]
+  ],
+  "type": "dyn"
 }

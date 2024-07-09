@@ -3,71 +3,89 @@
   "parameters": [
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Compressor Threshold",
-      "type": ""
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Limit Level",
-      "type": ""
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Gain",
-      "type": ""
+      "type": "knob",
+      "category": "Input"
     },
     {
       "name": "Mix",
-      "type": ""
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Ratio",
-      "type": ""
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "High",
-      "type": ""
+      "type": "knob",
+      "category": "LPF"
     },
     {
       "name": "Mid",
-      "type": ""
+      "type": "knob",
+      "category": "Sidechain Freq/Mid"
     },
     {
       "name": "High Pass Filter",
-      "type": ""
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "Compressor Recovery Time",
-      "type": ""
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Level Recovery Time",
-      "type": ""
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "External Sidechain",
-      "type": ""
+      "type": "button",
+      "category": "Ext Sidechain"
     },
     {
       "name": "Oversample",
-      "type": ""
+      "type": "button",
+      "category": "Oversample"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
-  ]
+  ],
+  "type": "dyn"
 }

@@ -9,7 +9,7 @@
 </select>
 <div class="content">
     @if(loaded$ | async){
-        <div>
+        <div class="form">
             <h1>
                 {{(loaded$ | async)?.vstName}}
             </h1>
@@ -17,18 +17,35 @@
                 type : 
                 @if((loaded$ | async)?.type === "" || (loaded$ | async)?.type === undefined){
                     <input [(ngModel)]="type">
+                } @else {
+                    {{(loaded$ | async)?.type}}
                 }
             </div>
             <h2>Paramètres</h2>
             <ul>
+                <li class="parameter header">
+                    <div>nom</div><div class="type">type</div><div>catégorie</div>
+                </li>
                 @for(param of (loaded$ | async)?.parameters; track $index){
                     <li class="parameter">
                         <label [for]="param.name">{{param.name}}</label>
-                        <select [(ngModel)]="typeParamOf[$index]" [name]="param.name">
+                        <select [(ngModel)]="typeParamOf[$index]" [name]="param.name" class="type">
                             @for(type of typeParam; track $index){
                                 <option>{{type}}</option>
                             }
                         </select>
+                        <div>
+                            <select [(ngModel)]="category[$index]">
+                                @for(paramCat of paramCats; track paramCat){
+                                    <optgroup>{{paramCat.categoryName}}</optgroup>
+                                    @for (paramAsign of paramCat.childrenParam; track paramAsign) {
+                                        @if (paramAsign.type == param.type){
+                                           <option>{{paramAsign.paramName}}</option> 
+                                        }
+                                    }
+                                }
+                            </select>
+                        </div>
                     </li>
                 }
             </ul>

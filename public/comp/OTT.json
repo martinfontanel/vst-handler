@@ -1,93 +1,94 @@
 {
-    "vstName": "OTT",
-    "parameters": [
-      {
-        "name": "Depth",
-        "type": ""
-      },
-      {
-        "name": "Time",
-        "type": ""
-      },
-      {
-        "name": "In Gain",
-        "type": ""
-      },
-      {
-        "name": "Out Gain",
-        "type": ""
-      },
-      {
-        "name": "Clean XOV",
-        "type": ""
-      },
-      {
-        "name": "Thresh L",
-        "type": ""
-      },
-      {
-        "name": "Thresh M",
-        "type": ""
-      },
-      {
-        "name": "Thresh H",
-        "type": ""
-      },
-      {
-        "name": "Gain L",
-        "type": ""
-      },
-      {
-        "name": "Gain M",
-        "type": ""
-      },
-      {
-        "name": "Gain H",
-        "type": ""
-      },
-      {
-        "name": "Byp Upwd L",
-        "type": ""
-      },
-      {
-        "name": "Byp Upwd M",
-        "type": ""
-      },
-      {
-        "name": "Byp Upwd H",
-        "type": ""
-      },
-      {
-        "name": "Byp Dnwd L",
-        "type": ""
-      },
-      {
-        "name": "Byp Dnwd M",
-        "type": ""
-      },
-      {
-        "name": "Byp Dnwd H",
-        "type": ""
-      },
-      {
-        "name": "Upwd Strgth",
-        "type": ""
-      },
-      {
-        "name": "Dnwd Strgth",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "OTT",
+  "parameters": [
+    {
+      "name": "Depth",
+      "type": "knob"
+    },
+    {
+      "name": "Time",
+      "type": "knob"
+    },
+    {
+      "name": "In Gain",
+      "type": "knob"
+    },
+    {
+      "name": "Out Gain",
+      "type": "knob"
+    },
+    {
+      "name": "Clean XOV",
+      "type": "button"
+    },
+    {
+      "name": "Thresh L",
+      "type": "knob"
+    },
+    {
+      "name": "Thresh M",
+      "type": "knob"
+    },
+    {
+      "name": "Thresh H",
+      "type": "knob"
+    },
+    {
+      "name": "Gain L",
+      "type": "knob"
+    },
+    {
+      "name": "Gain M",
+      "type": "knob"
+    },
+    {
+      "name": "Gain H",
+      "type": "knob"
+    },
+    {
+      "name": "Byp Upwd L",
+      "type": "button"
+    },
+    {
+      "name": "Byp Upwd M",
+      "type": "button"
+    },
+    {
+      "name": "Byp Upwd H",
+      "type": "button"
+    },
+    {
+      "name": "Byp Dnwd L",
+      "type": "button"
+    },
+    {
+      "name": "Byp Dnwd M",
+      "type": "button"
+    },
+    {
+      "name": "Byp Dnwd H",
+      "type": "button"
+    },
+    {
+      "name": "Upwd Strgth",
+      "type": "knob"
+    },
+    {
+      "name": "Dnwd Strgth",
+      "type": "knob"
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ],
+  "type": "dyn"
+}

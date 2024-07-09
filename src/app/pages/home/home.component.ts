@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { VstParameters } from '../../interfaces/vst-parameters';
 import { files } from '../../consts/files';
 import { FormsModule } from '@angular/forms';
+import { paramCats } from '../../consts/param-cat'
 
 @Component({
   selector: 'app-home',
@@ -23,18 +24,24 @@ export class HomeComponent {
   typeParamOf:string[] = [];
   globalObject:VstParameters[] = [];
   globalExport!:string;
+  category:string[] = [];
+  paramCats = paramCats
   
   constructor(dataLoader:LoadDatasService){
     this.dataLoader = dataLoader;
   }
 
   loadFile(){
+    let doILoad:boolean = false;
     this.typeParamOf = [];
+    this.category = [];
     this.type = "";
     this.loaded$ = this.dataLoader.getVSTData(this.url + ".json");
     this.loaded$.subscribe(value=>{
+      if (value.type !== undefined) this.type = value.type;
       value.parameters.map(val=>{
         this.typeParamOf.push(val.type);
+        this.category.push(val.category!==undefined?val.category:"");
       })
     })
   }
@@ -50,6 +57,7 @@ export class HomeComponent {
       value.type = this.type;
       value.parameters.map((val, key)=>{
         val.type = this.typeParamOf[key]
+        val.category = this.category[key]
       })
 
       this.globalObject.map((val, key)=>{

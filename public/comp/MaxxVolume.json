@@ -3,47 +3,47 @@
   "parameters": [
     {
       "name": "Low Level Thresh",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Low Level Gain",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Gate",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Leveler",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "High Level Thresh",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "High Level Gain",
-      "type": ""
+      "type": "knob"
     },
     {
       "name": "Leveler On",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Gate On",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "High Level Thresh On",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Low Level Thresh On",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "ARC Type",
-      "type": ""
+      "type": "button"
     },
     {
       "name": "Bypass",
@@ -57,5 +57,6 @@
       "name": "Delta",
       "type": ""
     }
-  ]
+  ],
+  "type": "dyn"
 }

@@ -1,69 +1,70 @@
 {
-    "vstName": "RoughRider3",
-    "parameters": [
-      {
-        "name": "SC HPF",
-        "type": ""
-      },
-      {
-        "name": "Input Lvl",
-        "type": ""
-      },
-      {
-        "name": "Sensitivity",
-        "type": ""
-      },
-      {
-        "name": "Ratio",
-        "type": ""
-      },
-      {
-        "name": "Attack",
-        "type": ""
-      },
-      {
-        "name": "Release",
-        "type": ""
-      },
-      {
-        "name": "Makeup",
-        "type": ""
-      },
-      {
-        "name": "Mix",
-        "type": ""
-      },
-      {
-        "name": "Output Lvl",
-        "type": ""
-      },
-      {
-        "name": "SC Active",
-        "type": ""
-      },
-      {
-        "name": "Full Bandwidth",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Program",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "RoughRider3",
+  "parameters": [
+    {
+      "name": "SC HPF",
+      "type": "knob"
+    },
+    {
+      "name": "Input Lvl",
+      "type": "knob"
+    },
+    {
+      "name": "Sensitivity",
+      "type": "knob"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob"
+    },
+    {
+      "name": "Attack",
+      "type": "knob"
+    },
+    {
+      "name": "Release",
+      "type": "knob"
+    },
+    {
+      "name": "Makeup",
+      "type": "knob"
+    },
+    {
+      "name": "Mix",
+      "type": "knob"
+    },
+    {
+      "name": "Output Lvl",
+      "type": "knob"
+    },
+    {
+      "name": "SC Active",
+      "type": "button"
+    },
+    {
+      "name": "Full Bandwidth",
+      "type": "button"
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Program",
+      "type": "indent"
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ],
+  "type": "dyn"
+}

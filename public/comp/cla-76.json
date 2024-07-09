@@ -1,53 +1,66 @@
 {
-    "vstName": "CLA-76",
-    "parameters": [
-      {
-        "name": "Input",
-        "type": ""
-      },
-      {
-        "name": "Output",
-        "type": ""
-      },
-      {
-        "name": "Attack",
-        "type": ""
-      },
-      {
-        "name": "Release",
-        "type": ""
-      },
-      {
-        "name": "Ratio",
-        "type": ""
-      },
-      {
-        "name": "Analog",
-        "type": ""
-      },
-      {
-        "name": "Revision",
-        "type": ""
-      },
-      {
-        "name": "Meter",
-        "type": ""
-      },
-      {
-        "name": "Comp Off",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "CLA-76",
+  "parameters": [
+    {
+      "name": "Input",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Output",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "Analog",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Revision",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Meter",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Comp Off",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

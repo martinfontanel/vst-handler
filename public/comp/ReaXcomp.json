@@ -1,209 +1,210 @@
 {
-    "vstName": "ReaXcomp",
-    "parameters": [
-      {
-        "name": "1-Band top frequency",
-        "type": ""
-      },
-      {
-        "name": "1-Gain",
-        "type": ""
-      },
-      {
-        "name": "1-Threshold",
-        "type": ""
-      },
-      {
-        "name": "1-Ratio",
-        "type": ""
-      },
-      {
-        "name": "1-Knee",
-        "type": ""
-      },
-      {
-        "name": "1-Attack",
-        "type": ""
-      },
-      {
-        "name": "1-Release",
-        "type": ""
-      },
-      {
-        "name": "1-RMS",
-        "type": ""
-      },
-      {
-        "name": "1-Make Up Gain",
-        "type": ""
-      },
-      {
-        "name": "1-Auto Release",
-        "type": ""
-      },
-      {
-        "name": "1-FeedBack Detector",
-        "type": ""
-      },
-      {
-        "name": "1-Active",
-        "type": ""
-      },
-      {
-        "name": "2-Band top frequency",
-        "type": ""
-      },
-      {
-        "name": "2-Gain",
-        "type": ""
-      },
-      {
-        "name": "2-Threshold",
-        "type": ""
-      },
-      {
-        "name": "2-Ratio",
-        "type": ""
-      },
-      {
-        "name": "2-Knee",
-        "type": ""
-      },
-      {
-        "name": "2-Attack",
-        "type": ""
-      },
-      {
-        "name": "2-Release",
-        "type": ""
-      },
-      {
-        "name": "2-RMS",
-        "type": ""
-      },
-      {
-        "name": "2-Make Up Gain",
-        "type": ""
-      },
-      {
-        "name": "2-Auto Release",
-        "type": ""
-      },
-      {
-        "name": "2-FeedBack Detector",
-        "type": ""
-      },
-      {
-        "name": "2-Active",
-        "type": ""
-      },
-      {
-        "name": "3-Band top frequency",
-        "type": ""
-      },
-      {
-        "name": "3-Gain",
-        "type": ""
-      },
-      {
-        "name": "3-Threshold",
-        "type": ""
-      },
-      {
-        "name": "3-Ratio",
-        "type": ""
-      },
-      {
-        "name": "3-Knee",
-        "type": ""
-      },
-      {
-        "name": "3-Attack",
-        "type": ""
-      },
-      {
-        "name": "3-Release",
-        "type": ""
-      },
-      {
-        "name": "3-RMS",
-        "type": ""
-      },
-      {
-        "name": "3-Make Up Gain",
-        "type": ""
-      },
-      {
-        "name": "3-Auto Release",
-        "type": ""
-      },
-      {
-        "name": "3-FeedBack Detector",
-        "type": ""
-      },
-      {
-        "name": "3-Active",
-        "type": ""
-      },
-      {
-        "name": "4-Band top frequency",
-        "type": ""
-      },
-      {
-        "name": "4-Gain",
-        "type": ""
-      },
-      {
-        "name": "4-Threshold",
-        "type": ""
-      },
-      {
-        "name": "4-Ratio",
-        "type": ""
-      },
-      {
-        "name": "4-Knee",
-        "type": ""
-      },
-      {
-        "name": "4-Attack",
-        "type": ""
-      },
-      {
-        "name": "4-Release",
-        "type": ""
-      },
-      {
-        "name": "4-RMS",
-        "type": ""
-      },
-      {
-        "name": "4-Make Up Gain",
-        "type": ""
-      },
-      {
-        "name": "4-Auto Release",
-        "type": ""
-      },
-      {
-        "name": "4-FeedBack Detector",
-        "type": ""
-      },
-      {
-        "name": "4-Active",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "ReaXcomp",
+  "parameters": [
+    {
+      "name": "1-Band top frequency",
+      "type": "knob"
+    },
+    {
+      "name": "1-Gain",
+      "type": "knob"
+    },
+    {
+      "name": "1-Threshold",
+      "type": "knob"
+    },
+    {
+      "name": "1-Ratio",
+      "type": "knob"
+    },
+    {
+      "name": "1-Knee",
+      "type": "knob"
+    },
+    {
+      "name": "1-Attack",
+      "type": "knob"
+    },
+    {
+      "name": "1-Release",
+      "type": "knob"
+    },
+    {
+      "name": "1-RMS",
+      "type": "knob"
+    },
+    {
+      "name": "1-Make Up Gain",
+      "type": "knob"
+    },
+    {
+      "name": "1-Auto Release",
+      "type": "button"
+    },
+    {
+      "name": "1-FeedBack Detector",
+      "type": "button"
+    },
+    {
+      "name": "1-Active",
+      "type": "button"
+    },
+    {
+      "name": "2-Band top frequency",
+      "type": "knob"
+    },
+    {
+      "name": "2-Gain",
+      "type": "knob"
+    },
+    {
+      "name": "2-Threshold",
+      "type": "knob"
+    },
+    {
+      "name": "2-Ratio",
+      "type": "knob"
+    },
+    {
+      "name": "2-Knee",
+      "type": "knob"
+    },
+    {
+      "name": "2-Attack",
+      "type": "knob"
+    },
+    {
+      "name": "2-Release",
+      "type": "knob"
+    },
+    {
+      "name": "2-RMS",
+      "type": "knob"
+    },
+    {
+      "name": "2-Make Up Gain",
+      "type": "knob"
+    },
+    {
+      "name": "2-Auto Release",
+      "type": "button"
+    },
+    {
+      "name": "2-FeedBack Detector",
+      "type": "button"
+    },
+    {
+      "name": "2-Active",
+      "type": "button"
+    },
+    {
+      "name": "3-Band top frequency",
+      "type": "knob"
+    },
+    {
+      "name": "3-Gain",
+      "type": "knob"
+    },
+    {
+      "name": "3-Threshold",
+      "type": "knob"
+    },
+    {
+      "name": "3-Ratio",
+      "type": "knob"
+    },
+    {
+      "name": "3-Knee",
+      "type": "knob"
+    },
+    {
+      "name": "3-Attack",
+      "type": "knob"
+    },
+    {
+      "name": "3-Release",
+      "type": "knob"
+    },
+    {
+      "name": "3-RMS",
+      "type": "knob"
+    },
+    {
+      "name": "3-Make Up Gain",
+      "type": "knob"
+    },
+    {
+      "name": "3-Auto Release",
+      "type": "button"
+    },
+    {
+      "name": "3-FeedBack Detector",
+      "type": "button"
+    },
+    {
+      "name": "3-Active",
+      "type": "button"
+    },
+    {
+      "name": "4-Band top frequency",
+      "type": "knob"
+    },
+    {
+      "name": "4-Gain",
+      "type": "knob"
+    },
+    {
+      "name": "4-Threshold",
+      "type": "knob"
+    },
+    {
+      "name": "4-Ratio",
+      "type": "knob"
+    },
+    {
+      "name": "4-Knee",
+      "type": "knob"
+    },
+    {
+      "name": "4-Attack",
+      "type": "knob"
+    },
+    {
+      "name": "4-Release",
+      "type": "knob"
+    },
+    {
+      "name": "4-RMS",
+      "type": "knob"
+    },
+    {
+      "name": "4-Make Up Gain",
+      "type": "knob"
+    },
+    {
+      "name": "4-Auto Release",
+      "type": "button"
+    },
+    {
+      "name": "4-FeedBack Detector",
+      "type": "button"
+    },
+    {
+      "name": "4-Active",
+      "type": "button"
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ],
+  "type": "dyn"
+}

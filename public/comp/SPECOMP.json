@@ -1,61 +1,62 @@
 {
-    "vstName": "SPECOMP",
-    "parameters": [
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Threshold",
-        "type": ""
-      },
-      {
-        "name": "Ratio",
-        "type": ""
-      },
-      {
-        "name": "Make-Up",
-        "type": ""
-      },
-      {
-        "name": "Release",
-        "type": ""
-      },
-      {
-        "name": "Attack",
-        "type": ""
-      },
-      {
-        "name": "Knee",
-        "type": ""
-      },
-      {
-        "name": "Mix",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "External Sidechain",
-        "type": ""
-      },
-      {
-        "name": "Oversample",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "SPECOMP",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Threshold",
+      "type": "knob"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob"
+    },
+    {
+      "name": "Make-Up",
+      "type": "knob"
+    },
+    {
+      "name": "Release",
+      "type": "knob"
+    },
+    {
+      "name": "Attack",
+      "type": "knob"
+    },
+    {
+      "name": "Knee",
+      "type": "knob"
+    },
+    {
+      "name": "Mix",
+      "type": "knob"
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "External Sidechain",
+      "type": "button"
+    },
+    {
+      "name": "Oversample",
+      "type": "button"
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ],
+  "type": "dyn"
+}

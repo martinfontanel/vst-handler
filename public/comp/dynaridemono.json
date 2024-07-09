@@ -1,101 +1,102 @@
 {
-    "vstName": "DynaRideMono",
-    "parameters": [
-      {
-        "name": "Out:Gain",
-        "type": ""
-      },
-      {
-        "name": "Power Off/On",
-        "type": ""
-      },
-      {
-        "name": "Link A/R Off/On",
-        "type": ""
-      },
-      {
-        "name": "Attack ms",
-        "type": ""
-      },
-      {
-        "name": "Release ms",
-        "type": ""
-      },
-      {
-        "name": "Auto Release Off/On",
-        "type": ""
-      },
-      {
-        "name": "Target Level dB",
-        "type": ""
-      },
-      {
-        "name": "Output Gain dB",
-        "type": ""
-      },
-      {
-        "name": "VUMeter Mode",
-        "type": ""
-      },
-      {
-        "name": "Noise Level dB",
-        "type": ""
-      },
-      {
-        "name": "Link Min/Max Off/On",
-        "type": ""
-      },
-      {
-        "name": "Min Gain dB",
-        "type": ""
-      },
-      {
-        "name": "Max Gain dB",
-        "type": ""
-      },
-      {
-        "name": "Idle Gain dB",
-        "type": ""
-      },
-      {
-        "name": "PreDelay Off/On",
-        "type": ""
-      },
-      {
-        "name": "PreFilter Mode",
-        "type": ""
-      },
-      {
-        "name": "LowCut Hz",
-        "type": ""
-      },
-      {
-        "name": "HighCut Hz",
-        "type": ""
-      },
-      {
-        "name": "Filter Focus Off/On",
-        "type": ""
-      },
-      {
-        "name": "Gain Automation Mode",
-        "type": ""
-      },
-      {
-        "name": "Side Chain Mode",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "DynaRide",
+  "parameters": [
+    {
+      "name": "Out:Gain",
+      "type": ""
+    },
+    {
+      "name": "Power Off/On",
+      "type": "button"
+    },
+    {
+      "name": "Link A/R Off/On",
+      "type": "knob"
+    },
+    {
+      "name": "Attack ms",
+      "type": "knob"
+    },
+    {
+      "name": "Release ms",
+      "type": "knob"
+    },
+    {
+      "name": "Auto Release Off/On",
+      "type": "button"
+    },
+    {
+      "name": "Target Level dB",
+      "type": "knob"
+    },
+    {
+      "name": "Output Gain dB",
+      "type": "knob"
+    },
+    {
+      "name": "VUMeter Mode",
+      "type": "button"
+    },
+    {
+      "name": "Noise Level dB",
+      "type": "knob"
+    },
+    {
+      "name": "Link Min/Max Off/On",
+      "type": "button"
+    },
+    {
+      "name": "Min Gain dB",
+      "type": "knob"
+    },
+    {
+      "name": "Max Gain dB",
+      "type": "knob"
+    },
+    {
+      "name": "Idle Gain dB",
+      "type": "knob"
+    },
+    {
+      "name": "PreDelay Off/On",
+      "type": "button"
+    },
+    {
+      "name": "PreFilter Mode",
+      "type": "knob"
+    },
+    {
+      "name": "LowCut Hz",
+      "type": "knob"
+    },
+    {
+      "name": "HighCut Hz",
+      "type": "knob"
+    },
+    {
+      "name": "Filter Focus Off/On",
+      "type": "button"
+    },
+    {
+      "name": "Gain Automation Mode",
+      "type": "indent"
+    },
+    {
+      "name": "Side Chain Mode",
+      "type": "indent"
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ],
+  "type": "dyn"
+}
