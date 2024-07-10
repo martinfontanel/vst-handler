@@ -3,103 +3,128 @@
   "parameters": [
     {
       "name": "Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Peak Crest",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Soft Knee",
-      "type": "knob"
+      "type": "knob",
+      "category": "Knee"
     },
     {
       "name": "Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "Release Peak",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Release RMS",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Makeup",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "Dry Mix",
-      "type": "knob"
+      "type": "knob",
+      "category": "Dry"
     },
     {
       "name": "Dry Wet",
-      "type": "knob"
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Dry Mix Mode",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Out Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Output"
     },
     {
       "name": "SC HP Freq",
-      "type": "knob"
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "SC HP Slope",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "SC Stereo Diff",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": "button"
+      "type": "button",
+      "category": "Delta/listen"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Quality",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Mode",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "GR Disp Scale",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "GR Disp Mode",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Program",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

@@ -3,127 +3,158 @@
   "parameters": [
     {
       "name": "HQ",
-      "type": "button"
+      "type": "button",
+      "category": "Oversample"
     },
     {
       "name": "Power",
-      "type": "button"
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "RMS",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Low Crossover",
-      "type": "knob"
+      "type": "knob",
+      "category": "LPF"
     },
     {
       "name": "High Crossover",
-      "type": "knob"
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "Low Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Low Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Low Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "Low Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Low Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "Low Switch",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Mid Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Mid Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Mid Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "Mid Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Mid Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "Mid Switch",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "High Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "High Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "High Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "High Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "High Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "High Switch",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Mix",
-      "type": "knob"
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Input Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Input"
     },
     {
       "name": "Output Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Output"
     },
     {
       "name": "Sidechain",
-      "type": "button"
+      "type": "button",
+      "category": "Ext Sidechain"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

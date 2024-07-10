@@ -3,95 +3,118 @@
   "parameters": [
     {
       "name": "Preset",
-      "type": "knob"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": "button"
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Input Trim",
-      "type": "knob"
+      "type": "knob",
+      "category": "Input"
     },
     {
       "name": "Amount",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Margin Level",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Margin Setting",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Meter Type",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Meter View",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Auto Gain Compare",
-      "type": "button"
+      "type": "button",
+      "category": "Auto Gain"
     },
     {
       "name": "History",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "dB Scale",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Oversample Mode",
-      "type": "button"
+      "type": "button",
+      "category": "Oversample"
     },
     {
       "name": "Oversample Rate",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "ISP Protect",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Meter View",
-      "type": "button"
+      "type": "button",
+      "category": "VU/GR"
     },
     {
       "name": "Show Input Wave",
-      "type": "button"
+      "type": "button",
+      "category": "VU/GR"
     },
     {
       "name": "Show Output Wave",
-      "type": "button"
+      "type": "button",
+      "category": "VU/GR"
     },
     {
       "name": "Limiter",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Limit Character",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Transient Character",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

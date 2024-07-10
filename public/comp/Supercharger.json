@@ -3,51 +3,63 @@
   "parameters": [
     {
       "name": "Default",
-      "type": ""
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Input Trim",
-      "type": "knob"
+      "type": "knob",
+      "category": "Input"
     },
     {
       "name": "Sidechain",
-      "type": "button"
+      "type": "button",
+      "category": "Ext Sidechain"
     },
     {
       "name": "Compress",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Punch",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Dirt",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Mix",
-      "type": "knob"
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Output",
-      "type": "knob"
+      "type": "knob",
+      "category": "Output"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

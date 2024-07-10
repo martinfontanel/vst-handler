@@ -3,59 +3,73 @@
   "parameters": [
     {
       "name": "Preset",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": "button"
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Input"
     },
     {
       "name": "Peak Reduction",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "VU Mode",
-      "type": "button"
+      "type": "button",
+      "category": "VU/GR"
     },
     {
       "name": "SC HPF",
-      "type": "knob"
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Dry/Wet",
-      "type": "knob"
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Drive",
-      "type": "knob"
+      "type": "knob",
+      "category": "Drive"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

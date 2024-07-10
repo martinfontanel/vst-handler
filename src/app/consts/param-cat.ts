@@ -48,6 +48,10 @@ export const paramCats:ParameterCategory[] = [
                 paramName:"Delta/listen",
                 type:"button"
             },
+            {
+                paramName:"VU/GR",
+                type:"button"
+            },
         ]
     },
     {
@@ -140,6 +144,14 @@ export const paramCats:ParameterCategory[] = [
             {
                 paramName:"Trim",
                 type:"knob"
+            },
+            {
+                paramName:"Auto Gain",
+                type:"button"
+            },
+            {
+                paramName:"Auto Release",
+                type:"button"
             },
         ]
     }

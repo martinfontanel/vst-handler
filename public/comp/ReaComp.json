@@ -3,99 +3,123 @@
   "parameters": [
     {
       "name": "Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Pre-comp",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "resvd",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Lowpass",
-      "type": "knob"
+      "type": "knob",
+      "category": "LPF"
     },
     {
       "name": "Hipass",
-      "type": "knob"
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "SignIn",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "AudIn",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Dry",
-      "type": "knob"
+      "type": "knob",
+      "category": "Dry"
     },
     {
       "name": "Wet",
-      "type": "knob"
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Filter Preview",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "RMS size",
-      "type": "knob"
+      "type": "knob",
+      "category": "RMS"
     },
     {
       "name": "Knee",
-      "type": "knob"
+      "type": "knob",
+      "category": "Knee"
     },
     {
       "name": "Auto Make Up Gain",
-      "type": "button"
+      "type": "button",
+      "category": "Auto Gain"
     },
     {
       "name": "Auto Release",
-      "type": "button"
+      "type": "button",
+      "category": "Auto Release"
     },
     {
       "name": "Legacy Attack/Knee Options",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Deprecated Broken Anti-Alias",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Multichannel Mode",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Metering Index",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

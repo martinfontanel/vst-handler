@@ -3,207 +3,258 @@
   "parameters": [
     {
       "name": "1-Band top frequency",
-      "type": "knob"
+      "type": "knob",
+      "category": "LPF"
     },
     {
       "name": "1-Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "1-Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "1-Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "1-Knee",
-      "type": "knob"
+      "type": "knob",
+      "category": "Knee"
     },
     {
       "name": "1-Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "1-Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "1-RMS",
-      "type": "knob"
+      "type": "knob",
+      "category": "RMS"
     },
     {
       "name": "1-Make Up Gain",
-      "type": "knob"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "1-Auto Release",
-      "type": "button"
+      "type": "button",
+      "category": "Auto Release"
     },
     {
       "name": "1-FeedBack Detector",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "1-Active",
-      "type": "button"
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "2-Band top frequency",
-      "type": "knob"
+      "type": "knob",
+      "category": "LPF"
     },
     {
       "name": "2-Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "2-Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "2-Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "2-Knee",
-      "type": "knob"
+      "type": "knob",
+      "category": "Hold"
     },
     {
       "name": "2-Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "2-Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "2-RMS",
-      "type": "knob"
+      "type": "knob",
+      "category": "RMS"
     },
     {
       "name": "2-Make Up Gain",
-      "type": "knob"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "2-Auto Release",
-      "type": "button"
+      "type": "button",
+      "category": "Auto Release"
     },
     {
       "name": "2-FeedBack Detector",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "2-Active",
-      "type": "button"
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "3-Band top frequency",
-      "type": "knob"
+      "type": "knob",
+      "category": "LPF"
     },
     {
       "name": "3-Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "3-Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "3-Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "3-Knee",
-      "type": "knob"
+      "type": "knob",
+      "category": "Knee"
     },
     {
       "name": "3-Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "3-Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "3-RMS",
-      "type": "knob"
+      "type": "knob",
+      "category": "RMS"
     },
     {
       "name": "3-Make Up Gain",
-      "type": "knob"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "3-Auto Release",
-      "type": "button"
+      "type": "button",
+      "category": "Auto Release"
     },
     {
       "name": "3-FeedBack Detector",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "3-Active",
-      "type": "button"
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "4-Band top frequency",
-      "type": "knob"
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "4-Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "4-Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "4-Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "4-Knee",
-      "type": "knob"
+      "type": "knob",
+      "category": "Knee"
     },
     {
       "name": "4-Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "4-Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "4-RMS",
-      "type": "knob"
+      "type": "knob",
+      "category": "RMS"
     },
     {
       "name": "4-Make Up Gain",
-      "type": "knob"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "4-Auto Release",
-      "type": "button"
+      "type": "button",
+      "category": "Auto Release"
     },
     {
       "name": "4-FeedBack Detector",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "4-Active",
-      "type": "button"
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

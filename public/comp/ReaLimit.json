@@ -3,27 +3,33 @@
   "parameters": [
     {
       "name": "Threshold",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Ceiling",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ceiling"
     },
     {
       "name": "Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

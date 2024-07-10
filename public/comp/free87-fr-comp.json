@@ -3,35 +3,43 @@
   "parameters": [
     {
       "name": "Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "MakeUp",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "Limiter",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Thrshld",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"

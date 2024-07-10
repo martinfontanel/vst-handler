@@ -3,67 +3,83 @@
   "parameters": [
     {
       "name": "SC HPF",
-      "type": "knob"
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "Input Lvl",
-      "type": "knob"
+      "type": "knob",
+      "category": "Input"
     },
     {
       "name": "Sensitivity",
-      "type": "knob"
+      "type": "knob",
+      "category": "Threshold"
     },
     {
       "name": "Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Attack",
-      "type": "knob"
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "Release",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Makeup",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "Mix",
-      "type": "knob"
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Output Lvl",
-      "type": "knob"
+      "type": "knob",
+      "category": "Output"
     },
     {
       "name": "SC Active",
-      "type": "button"
+      "type": "button",
+      "category": "Ext Sidechain"
     },
     {
       "name": "Full Bandwidth",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Program",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
   ],
   "type": "dyn"
