@@ -19,7 +19,7 @@
     {
       "name": "Power Off/On",
       "type": "button",
-      "category": "Bypass"
+      "category": "Power"
     },
     {
       "name": "Link A/R Off/On",

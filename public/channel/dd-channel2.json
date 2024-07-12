@@ -1,157 +1,196 @@
 {
-    "vstName": "DD Channel2",
-    "parameters": [
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Input",
-        "type": ""
-      },
-      {
-        "name": "HPFOn",
-        "type": ""
-      },
-      {
-        "name": "HPFCut",
-        "type": ""
-      },
-      {
-        "name": "LPFOn",
-        "type": ""
-      },
-      {
-        "name": "LPFCut",
-        "type": ""
-      },
-      {
-        "name": "GCEOrder",
-        "type": ""
-      },
-      {
-        "name": "EQOn",
-        "type": ""
-      },
-      {
-        "name": "LFFreq",
-        "type": ""
-      },
-      {
-        "name": "LFQ",
-        "type": ""
-      },
-      {
-        "name": "LFGain",
-        "type": ""
-      },
-      {
-        "name": "LMFFreq",
-        "type": ""
-      },
-      {
-        "name": "LMFQ",
-        "type": ""
-      },
-      {
-        "name": "LMFGain",
-        "type": ""
-      },
-      {
-        "name": "HMFFreq",
-        "type": ""
-      },
-      {
-        "name": "HMFQ",
-        "type": ""
-      },
-      {
-        "name": "HMFGain",
-        "type": ""
-      },
-      {
-        "name": "HFFreq",
-        "type": ""
-      },
-      {
-        "name": "HFGain",
-        "type": ""
-      },
-      {
-        "name": "GateOn",
-        "type": ""
-      },
-      {
-        "name": "GTThresh",
-        "type": ""
-      },
-      {
-        "name": "GTAtt",
-        "type": ""
-      },
-      {
-        "name": "GTHold",
-        "type": ""
-      },
-      {
-        "name": "GTRel",
-        "type": ""
-      },
-      {
-        "name": "CompOn",
-        "type": ""
-      },
-      {
-        "name": "CPThresh",
-        "type": ""
-      },
-      {
-        "name": "CPRatio",
-        "type": ""
-      },
-      {
-        "name": "CPAtt",
-        "type": ""
-      },
-      {
-        "name": "CPRel",
-        "type": ""
-      },
-      {
-        "name": "CPMakeup",
-        "type": ""
-      },
-      {
-        "name": "CPMix",
-        "type": ""
-      },
-      {
-        "name": "Output",
-        "type": ""
-      },
-      {
-        "name": "InMode",
-        "type": ""
-      },
-      {
-        "name": "Invert L",
-        "type": ""
-      },
-      {
-        "name": "Invert R",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "DD Channel2",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Input",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "HPFOn",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "HPFCut",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "LPFOn",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "LPFCut",
+      "type": "knob",
+      "category": "LPF"
+    },
+    {
+      "name": "GCEOrder",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "EQOn",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LFFreq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LFQ",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LFGain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LMFFreq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LMFQ",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LMFGain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HMFFreq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HMFQ",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HMFGain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HFFreq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HFGain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "GateOn",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "GTThresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "GTAtt",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "GTHold",
+      "type": "knob",
+      "category": "Hold"
+    },
+    {
+      "name": "GTRel",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "CompOn",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "CPThresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "CPRatio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "CPAtt",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "CPRel",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "CPMakeup",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "CPMix",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Output",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "InMode",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Invert L",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Invert R",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "channel"
+}

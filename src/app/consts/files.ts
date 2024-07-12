@@ -10,7 +10,6 @@ export const files: any = [
             "dd-channel2",
             "hq2",
             "loaded",
-            "mix-box",
             "sslgchannel",
         ]
     },

@@ -1,205 +1,256 @@
 {
-    "vstName": "CHANNEV",
-    "parameters": [
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Mic Pre",
-        "type": ""
-      },
-      {
-        "name": "Pre-Low",
-        "type": ""
-      },
-      {
-        "name": "Pre-High",
-        "type": ""
-      },
-      {
-        "name": "Pre-Hipass",
-        "type": ""
-      },
-      {
-        "name": "Pre-Lowpass",
-        "type": ""
-      },
-      {
-        "name": "De-Esser Threshold",
-        "type": ""
-      },
-      {
-        "name": "De-Esser Release",
-        "type": ""
-      },
-      {
-        "name": "De-Esser Mix",
-        "type": ""
-      },
-      {
-        "name": "Line Amp",
-        "type": ""
-      },
-      {
-        "name": "Low Gain",
-        "type": ""
-      },
-      {
-        "name": "Low Freq",
-        "type": ""
-      },
-      {
-        "name": "Low Mid Gain",
-        "type": ""
-      },
-      {
-        "name": "Low Mid Freq",
-        "type": ""
-      },
-      {
-        "name": "High Mid Gain",
-        "type": ""
-      },
-      {
-        "name": "High Mid Freq",
-        "type": ""
-      },
-      {
-        "name": "High Gain",
-        "type": ""
-      },
-      {
-        "name": "High Freq",
-        "type": ""
-      },
-      {
-        "name": "Eq-Hipass",
-        "type": ""
-      },
-      {
-        "name": "Eq-Lowpass",
-        "type": ""
-      },
-      {
-        "name": "Compressor Threshold",
-        "type": ""
-      },
-      {
-        "name": "Compressor Ratio",
-        "type": ""
-      },
-      {
-        "name": "Compressor Release",
-        "type": ""
-      },
-      {
-        "name": "Compressor Gain",
-        "type": ""
-      },
-      {
-        "name": "Compressor Mix",
-        "type": ""
-      },
-      {
-        "name": "Limiter Threshold",
-        "type": ""
-      },
-      {
-        "name": "Limiter Release",
-        "type": ""
-      },
-      {
-        "name": "Limiter Gain",
-        "type": ""
-      },
-      {
-        "name": "Limiter Mix",
-        "type": ""
-      },
-      {
-        "name": "Tape Drive",
-        "type": ""
-      },
-      {
-        "name": "Output",
-        "type": ""
-      },
-      {
-        "name": "Trim",
-        "type": ""
-      },
-      {
-        "name": "Pre-Phase",
-        "type": ""
-      },
-      {
-        "name": "Pre-Pad",
-        "type": ""
-      },
-      {
-        "name": "Pre-In",
-        "type": ""
-      },
-      {
-        "name": "De-esser Peak",
-        "type": ""
-      },
-      {
-        "name": "De-esser In",
-        "type": ""
-      },
-      {
-        "name": "De-esser Soft",
-        "type": ""
-      },
-      {
-        "name": "Low Peak",
-        "type": ""
-      },
-      {
-        "name": "Low Mid Q",
-        "type": ""
-      },
-      {
-        "name": "High Mid Q",
-        "type": ""
-      },
-      {
-        "name": "High Peak",
-        "type": ""
-      },
-      {
-        "name": "Equalizer In",
-        "type": ""
-      },
-      {
-        "name": "Compressor In",
-        "type": ""
-      },
-      {
-        "name": "Compressor Sidechain",
-        "type": ""
-      },
-      {
-        "name": "Limiter In",
-        "type": ""
-      },
-      {
-        "name": "Limiter Sidechain",
-        "type": ""
-      },
-      {
-        "name": "Bypass",
-        "type": ""
-      },
-      {
-        "name": "Wet",
-        "type": ""
-      },
-      {
-        "name": "Delta",
-        "type": ""
-      }
-    ]
-  }
+  "vstName": "CHANNEV",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Mic Pre",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Pre-Low",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Pre-High",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Pre-Hipass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Pre-Lowpass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "De-Esser Threshold",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "De-Esser Release",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "De-Esser Mix",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Line Amp",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Low Gain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Low Freq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Low Mid Gain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Low Mid Freq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "High Mid Gain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "High Mid Freq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "High Gain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "High Freq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Eq-Hipass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Eq-Lowpass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Compressor Threshold",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Compressor Ratio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "Compressor Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Compressor Gain",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "Compressor Mix",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Limiter Threshold",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Limiter Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Limiter Gain",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "Limiter Mix",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Tape Drive",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Output",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Trim",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Pre-Phase",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Pre-Pad",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Pre-In",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "De-esser Peak",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "De-esser In",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "De-esser Soft",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Low Peak",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Low Mid Q",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "High Mid Q",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "High Peak",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Equalizer In",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Compressor In",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Compressor Sidechain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Limiter In",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Limiter Sidechain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "channel"
+}

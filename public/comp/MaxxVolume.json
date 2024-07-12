@@ -64,7 +64,7 @@
     {
       "name": "ARC Type",
       "type": "button",
-      "category": ""
+      "category": "Type / Mode"
     },
     {
       "name": "Bypass",

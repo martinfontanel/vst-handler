@@ -21,6 +21,11 @@
                     {{(loaded$ | async)?.type}}
                 }
             </div>
+            <h2>Parties</h2>
+            @for (item of (loaded$ | async)?.parts; track $index) {
+                <input [(ngModel)]="item[$index]">
+            }
+            <button (click)="addPart()">+</button>
             <h2>Paramètres</h2>
             <ul>
                 <li class="parameter header">

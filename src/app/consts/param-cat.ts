@@ -52,6 +52,26 @@ export const paramCats:ParameterCategory[] = [
                 paramName:"VU/GR",
                 type:"button"
             },
+            {
+                paramName:"Link",
+                type:"button"
+            },
+            {
+                paramName:"Solo",
+                type:"button"
+            },
+            {
+                paramName:"Type / Mode",
+                type:"button"
+            },
+            {
+                paramName:"Power",
+                type:"button"
+            },
+            {
+                paramName:"Analog",
+                type:"button"
+            },
         ]
     },
     {
@@ -63,10 +83,6 @@ export const paramCats:ParameterCategory[] = [
             },
             {
                 paramName:"Link",
-                type:"button"
-            },
-            {
-                paramName:"Ext Sidechain",
                 type:"button"
             },
             {
@@ -152,6 +168,22 @@ export const paramCats:ParameterCategory[] = [
             {
                 paramName:"Auto Release",
                 type:"button"
+            },
+            {
+                paramName:"Hard Knee",
+                type:"button"
+            },
+            {
+                paramName:"Q",
+                type:"knob"
+            },
+            {
+                paramName:"Range",
+                type:"knob"
+            },
+            {
+                paramName:"Clip",
+                type:"knob"
             },
         ]
     }

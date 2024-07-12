@@ -4,7 +4,7 @@
     {
       "name": "Power",
       "type": "button",
-      "category": "Bypass"
+      "category": "Power"
     },
     {
       "name": "Preset Bank",
@@ -54,7 +54,7 @@
     {
       "name": "TMT Compressor Mode",
       "type": "button",
-      "category": ""
+      "category": "Type / Mode"
     },
     {
       "name": "Bypass",

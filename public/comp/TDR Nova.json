@@ -19,7 +19,7 @@
     {
       "name": "Band 1 Q",
       "type": "knob",
-      "category": ""
+      "category": "Q"
     },
     {
       "name": "Band 1 Frequency",
@@ -79,7 +79,7 @@
     {
       "name": "Band 2 Q",
       "type": "knob",
-      "category": ""
+      "category": "Q"
     },
     {
       "name": "Band 2 Frequency",
@@ -139,7 +139,7 @@
     {
       "name": "Band 3 Q",
       "type": "knob",
-      "category": ""
+      "category": "Q"
     },
     {
       "name": "Band 3 Frequency",
@@ -199,7 +199,7 @@
     {
       "name": "Band 4 Q",
       "type": "knob",
-      "category": ""
+      "category": "Q"
     },
     {
       "name": "Band 4 Frequency",

@@ -3,79 +3,99 @@
   "parameters": [
     {
       "name": "Preset",
-      "type": ""
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "KK",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Attack",
-      "type": ""
+      "type": "knob",
+      "category": "Attack"
     },
     {
       "name": "Release",
-      "type": ""
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Ratio",
-      "type": ""
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Power",
-      "type": ""
+      "type": "button",
+      "category": "Power"
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
-  ]
+  ],
+  "type": "channel"
 }

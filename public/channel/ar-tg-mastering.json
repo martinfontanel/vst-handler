@@ -3,431 +3,539 @@
   "parameters": [
     {
       "name": "Output Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Output Gain R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Monitor",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Link Output",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Change Notify",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Spreader",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Inp:On/Off",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Inp:Input",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Inp:Tape Equalizer",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Inp:Pole",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Inp:Transpose",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Inp:Balance",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Inp:Phase 90",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Inp:ST Mode",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Inp:Link",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Inp:Input R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Inp:Tape Equalizer R",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Inp:Pole R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:On/Off",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Band 1 Frequency",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 1 Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 1 Shape",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 1 On",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Listen 1",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Band 2 Frequency",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 2 Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 2 Shape",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 2 On",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Listen 2",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Band 3 Frequency",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 3 Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 3 Shape",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 3 On",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Listen 3",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Band 4 Frequency",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 4 Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 4 Shape",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 4 On",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Listen 4",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Link",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:ST Mode",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Tone:Band 1 Frequency R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 1 Gain R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 1 Shape R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 1 On R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Listen 1 R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Band 2 Frequency R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 2 Gain R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 2 Shape R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 2 On R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Listen 2 R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Band 3 Frequency R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 3 Gain R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 3 Shape R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 3 On R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Listen 3 R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Band 4 Frequency R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 4 Gain R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 4 Shape R",
-      "type": "knob"
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Tone:Band 4 On R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Listen 4 R",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Tone:Solo Activate",
-      "type": "button"
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Limit:On/Off",
-      "type": "button"
+      "type": "button",
+      "category": "Bypass"
     },
     {
       "name": "Limit:Mode",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Limit:Recovery",
-      "type": "knob"
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Limit:Make Up Gain",
-      "type": "knob"
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "Limit:Ratio",
-      "type": "knob"
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Limit:Mix",
-      "type": "knob"
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Limit:SC Filter",
-      "type": "button"
+      "type": "button",
+      "category": "Ext Sidechain"
     },
     {
       "name": "Limit:Link",
-      "type": "button"
+      "type": "button",
+      "category": "Link"
     },
     {
       "name": "Limit:ST Mode",
-      "type": "indent"
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Limit:Mode R",
-      "type": ""
+      "type": "indent",
+      "category": ""
     },
     {
       "name": "Limit:Recovery R",
-      "type": ""
+      "type": "knob",
+      "category": "Release"
     },
     {
       "name": "Limit:Mix R",
-      "type": ""
+      "type": "knob",
+      "category": "Wet"
     },
     {
       "name": "Limit:Ratio R",
-      "type": ""
+      "type": "knob",
+      "category": "Ratio"
     },
     {
       "name": "Limit:Make Up Gain R",
-      "type": ""
+      "type": "knob",
+      "category": "Makeup Gain"
     },
     {
       "name": "Limit:SC LP Frequency",
-      "type": ""
+      "type": "knob",
+      "category": "LPF"
     },
     {
       "name": "Limit:SC Bell Frequency",
-      "type": ""
+      "type": "knob",
+      "category": "Sidechain Freq/Mid"
     },
     {
       "name": "Limit:SC LP On/Off",
-      "type": ""
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Limit:SC Bell Gain",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Limit:SC Bell On/Off",
-      "type": ""
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Limit:SC HP Frequency",
-      "type": ""
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "Limit:SC HP On/Off",
-      "type": ""
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Limit:SC Listen",
-      "type": ""
+      "type": "button",
+      "category": "Delta/listen"
     },
     {
       "name": "Limit:SC LP Frequency R",
-      "type": ""
+      "type": "knob",
+      "category": "LPF"
     },
     {
       "name": "Limit:SC LP On/Off R",
-      "type": ""
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Limit:SC Bell Frequency R",
-      "type": ""
+      "type": "knob",
+      "category": "Sidechain Freq/Mid"
     },
     {
       "name": "Limit:SC Bell Gain R",
-      "type": ""
+      "type": "knob",
+      "category": ""
     },
     {
       "name": "Limit:SC Bell On/Off R",
-      "type": ""
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Limit:SC HP Frequency R",
-      "type": ""
+      "type": "knob",
+      "category": "HPF"
     },
     {
       "name": "Limit:SC HP On/Off R",
-      "type": ""
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Limit:SC Listen R",
-      "type": ""
+      "type": "button",
+      "category": "Delta/listen"
     },
     {
       "name": "Limit:Solo Activate",
-      "type": ""
+      "type": "button",
+      "category": ""
     },
     {
       "name": "Fltr:On/Off",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:HP Freq",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:Presence Frequency",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:Presence Gain",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:LP Freq",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:Link",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:ST Mode",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:LP Freq R",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:Presence Frequency R",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:Presence Gain R",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Fltr:HP Freq R",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Bypass",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Wet",
-      "type": ""
+      "type": "",
+      "category": ""
     },
     {
       "name": "Delta",
-      "type": ""
+      "type": "",
+      "category": ""
     }
-  ]
+  ],
+  "type": "channel"
 }

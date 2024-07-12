@@ -25,7 +25,8 @@ export class HomeComponent {
   globalObject:VstParameters[] = [];
   globalExport!:string;
   category:string[] = [];
-  paramCats = paramCats
+  paramCats = paramCats;
+  part!:string[];
   
   constructor(dataLoader:LoadDatasService){
     this.dataLoader = dataLoader;
@@ -48,6 +49,9 @@ export class HomeComponent {
 
   stringify(obj:any){
     return JSON.stringify(obj)
+  }
+  addPart(){
+    
   }
 
   submit(){
