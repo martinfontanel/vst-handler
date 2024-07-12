@@ -4,113 +4,140 @@
     {
       "name": "Depth",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Time",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "In Gain",
       "type": "knob",
-      "category": "Input"
+      "category": "Input",
+      "part": ""
     },
     {
       "name": "Out Gain",
       "type": "knob",
-      "category": "Output"
+      "category": "Output",
+      "part": ""
     },
     {
       "name": "Clean XOV",
       "type": "button",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Thresh L",
       "type": "knob",
-      "category": "Threshold"
+      "category": "Threshold",
+      "part": "Low"
     },
     {
       "name": "Thresh M",
       "type": "knob",
-      "category": "Threshold"
+      "category": "Threshold",
+      "part": "Medium"
     },
     {
       "name": "Thresh H",
       "type": "knob",
-      "category": "Threshold"
+      "category": "Threshold",
+      "part": "High"
     },
     {
       "name": "Gain L",
       "type": "knob",
-      "category": "Makeup Gain"
+      "category": "Makeup Gain",
+      "part": "Low"
     },
     {
       "name": "Gain M",
       "type": "knob",
-      "category": "Makeup Gain"
+      "category": "Makeup Gain",
+      "part": "Medium"
     },
     {
       "name": "Gain H",
       "type": "knob",
-      "category": "Makeup Gain"
+      "category": "Makeup Gain",
+      "part": "High"
     },
     {
       "name": "Byp Upwd L",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "Low"
     },
     {
       "name": "Byp Upwd M",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "Medium"
     },
     {
       "name": "Byp Upwd H",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "High"
     },
     {
       "name": "Byp Dnwd L",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "Low"
     },
     {
       "name": "Byp Dnwd M",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "Medium"
     },
     {
       "name": "Byp Dnwd H",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "High"
     },
     {
       "name": "Upwd Strgth",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Dnwd Strgth",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Bypass",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Wet",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Delta",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     }
   ],
-  "type": "dyn"
+  "type": "dyn",
+  "parts": [
+    "Low",
+    "Medium",
+    "High"
+  ]
 }

@@ -4,98 +4,122 @@
     {
       "name": "Preset",
       "type": "indent",
-      "category": ""
+      "category": "",
+      "part": "General"
     },
     {
       "name": "Bypass",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "General"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "KK",
       "type": "knob",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "Attack",
       "type": "knob",
-      "category": "Attack"
+      "category": "Attack",
+      "part": "Comp"
     },
     {
       "name": "Release",
       "type": "knob",
-      "category": "Release"
+      "category": "Release",
+      "part": "Comp"
     },
     {
       "name": "Ratio",
       "type": "knob",
-      "category": "Ratio"
+      "category": "Ratio",
+      "part": "Comp"
     },
     {
       "name": "Power",
       "type": "button",
-      "category": "Power"
+      "category": "Power",
+      "part": "Comp"
     },
     {
       "name": "Bypass",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Wet",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Delta",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     }
   ],
-  "type": "channel"
+  "type": "channel",
+  "parts": [
+    "General",
+    "EQ",
+    "Comp"
+  ]
 }

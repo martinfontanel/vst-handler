@@ -14,7 +14,7 @@
                 {{(loaded$ | async)?.vstName}}
             </h1>
             <div>
-                type : 
+                type :
                 @if((loaded$ | async)?.type === "" || (loaded$ | async)?.type === undefined){
                     <input [(ngModel)]="type">
                 } @else {
@@ -22,34 +22,44 @@
                 }
             </div>
             <h2>Parties</h2>
-            @for (item of (loaded$ | async)?.parts; track $index) {
-                <input [(ngModel)]="item[$index]">
+            @for (item of parts; track $index) {
+              <input [(ngModel)]="parts[$index]"><br>
             }
             <button (click)="addPart()">+</button>
             <h2>Paramètres</h2>
             <ul>
                 <li class="parameter header">
-                    <div>nom</div><div class="type">type</div><div>catégorie</div>
+                    <div>nom</div><div class="type">type</div><div>catégorie</div><div>Partie</div>
                 </li>
                 @for(param of (loaded$ | async)?.parameters; track $index){
                     <li class="parameter">
                         <label [for]="param.name">{{param.name}}</label>
                         <select [(ngModel)]="typeParamOf[$index]" [name]="param.name" class="type">
+                          <option value=""></option>
                             @for(type of typeParam; track $index){
                                 <option>{{type}}</option>
                             }
                         </select>
                         <div>
                             <select [(ngModel)]="category[$index]">
+                              <option value=""></option>
                                 @for(paramCat of paramCats; track paramCat){
                                     <optgroup>{{paramCat.categoryName}}</optgroup>
                                     @for (paramAsign of paramCat.childrenParam; track paramAsign) {
                                         @if (paramAsign.type == param.type){
-                                           <option>{{paramAsign.paramName}}</option> 
+                                           <option>{{paramAsign.paramName}}</option>
                                         }
                                     }
                                 }
                             </select>
+                        </div>
+                        <div>
+                          <select [(ngModel)]="paramPart[$index]">
+                            <option value=""></option>
+                            @for (partOf of parts; track $index) {
+                              <option>{{partOf}}</option>
+                            }
+                          </select>
                         </div>
                     </li>
                 }
@@ -58,7 +68,7 @@
                 ENREGISTRER
             </button>
         </div>
-        
+
     }
     @if(globalExport !== ""){
         <div class="export">

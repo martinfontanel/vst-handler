@@ -4,183 +4,225 @@
     {
       "name": "Analog",
       "type": "button",
-      "category": "Analog"
+      "category": "Analog",
+      "part": ""
     },
     {
       "name": "CompThresh",
       "type": "knob",
-      "category": "Threshold"
+      "category": "Threshold",
+      "part": "Comp"
     },
     {
       "name": "CompRatio",
       "type": "knob",
-      "category": "Ratio"
+      "category": "Ratio",
+      "part": "Comp"
     },
     {
       "name": "CompFast",
       "type": "button",
-      "category": "Fast Attack"
+      "category": "Fast Attack",
+      "part": "Comp"
     },
     {
       "name": "CompRelease",
       "type": "knob",
-      "category": "Release"
+      "category": "Release",
+      "part": "Comp"
     },
     {
       "name": "ExpAttack",
       "type": "button",
-      "category": "Fast Attack"
+      "category": "Fast Attack",
+      "part": "Exp"
     },
     {
       "name": "ExpRelease",
       "type": "knob",
-      "category": "Release"
+      "category": "Release",
+      "part": "Exp"
     },
     {
       "name": "ExpThresh",
       "type": "knob",
-      "category": "Threshold"
+      "category": "Threshold",
+      "part": "Exp"
     },
     {
       "name": "ExpRange",
       "type": "knob",
-      "category": "Range"
+      "category": "Range",
+      "part": "Exp"
     },
     {
       "name": "ExpGate",
       "type": "button",
-      "category": "Type / Mode"
+      "category": "Type / Mode",
+      "part": "Exp"
     },
     {
       "name": "EQBypass",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": ""
     },
     {
       "name": "EQDynamic",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": ""
     },
     {
       "name": "DynamicBypass",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": ""
     },
     {
       "name": "DynaminCHOut",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": ""
     },
     {
       "name": "FilterSplit",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": "Filter"
     },
     {
       "name": "HP Frq",
-      "type": "",
-      "category": ""
+      "type": "knob",
+      "category": "",
+      "part": "Filter"
     },
     {
       "name": "LP Frq",
-      "type": "",
-      "category": ""
+      "type": "knob",
+      "category": "",
+      "part": "Filter"
     },
     {
       "name": "LF Gain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "LF Frq",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "LMF div3",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "LMF Gain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "LMF Frq",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "LMF Q",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "HMF Gain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "HMF Frq",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "HMF Q",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "HMF X3",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "HF Gain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "HF Frq",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "Gain",
       "type": "knob",
-      "category": "Output"
+      "category": "Output",
+      "part": ""
     },
     {
       "name": "VUInOut",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": ""
     },
     {
       "name": "PhaseReverse",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": ""
     },
     {
       "name": "InputLevel",
       "type": "knob",
-      "category": "Input"
+      "category": "Input",
+      "part": ""
     },
     {
       "name": "Bypass",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Wet",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Delta",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     }
   ],
-  "type": "channel"
+  "type": "channel",
+  "parts": [
+    "Comp",
+    "Exp",
+    "Filter",
+    "EQ"
+  ]
 }

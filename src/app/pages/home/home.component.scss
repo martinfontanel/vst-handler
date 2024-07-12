@@ -13,11 +13,14 @@
 .parameter{
     display: flex;
     justify-content: space-between;
-    *{
-        width: 40%;
+    &>*{
+        width: 30%;
     }
     .type{
         width: 10%
+    }
+    input, select{
+      width:100%;
     }
 }
 .parameter.header{
@@ -27,4 +30,3 @@
 .parameter:hover{
     background-color: beige;
 }
-

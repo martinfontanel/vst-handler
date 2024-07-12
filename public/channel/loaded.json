@@ -4,223 +4,275 @@
     {
       "name": "Preset",
       "type": "indent",
-      "category": ""
+      "category": "",
+      "part": "General"
     },
     {
       "name": "Bypass",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "General"
     },
     {
       "name": "Preamp Gain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Preamp HPF",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Main Input",
       "type": "knob",
-      "category": "Input"
+      "category": "Input",
+      "part": "General"
     },
     {
       "name": "Main Output",
       "type": "knob",
-      "category": "Output"
+      "category": "Output",
+      "part": "General"
     },
     {
       "name": "De-Esser Release",
       "type": "knob",
-      "category": "Release"
+      "category": "Release",
+      "part": "De-esser"
     },
     {
       "name": "De-Esser Threshold",
       "type": "knob",
-      "category": "Threshold"
+      "category": "Threshold",
+      "part": "De-esser"
     },
     {
       "name": "De-Esser Mix",
       "type": "knob",
-      "category": "Wet"
+      "category": "Wet",
+      "part": "De-esser"
     },
     {
       "name": "Gate Mix",
       "type": "knob",
-      "category": "Wet"
+      "category": "Wet",
+      "part": "Gate"
     },
     {
       "name": "Gate Release",
       "type": "knob",
-      "category": "Release"
+      "category": "Release",
+      "part": "Gate"
     },
     {
       "name": "Gate Threshold",
       "type": "knob",
-      "category": "Threshold"
+      "category": "Threshold",
+      "part": "Gate"
     },
     {
       "name": "Low Gain",
-      "type": "",
-      "category": ""
+      "type": "knob",
+      "category": "",
+      "part": ""
     },
     {
       "name": "Low Mid Freq",
-      "type": "",
-      "category": ""
+      "type": "knob",
+      "category": "",
+      "part": ""
     },
     {
       "name": "Low Mid Gain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "High Mid Freq",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "High Mid Gain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "High Gain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Compressor Threshold",
       "type": "knob",
-      "category": "Threshold"
+      "category": "Threshold",
+      "part": ""
     },
     {
       "name": "Compressor Ratio",
       "type": "knob",
-      "category": "Ratio"
+      "category": "Ratio",
+      "part": ""
     },
     {
       "name": "Compressor Mix",
       "type": "knob",
-      "category": "Wet"
+      "category": "Wet",
+      "part": ""
     },
     {
       "name": "Preamp Bypass",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Preamp PAD",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Preamp Phase",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Preamp HPF Switch",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Preamp MIC",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Preamp Low Boost",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Preamp High Boost",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Preamp Transformer",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "Pre-amp"
     },
     {
       "name": "Main Bypass",
-      "type": "",
-      "category": ""
+      "type": "button",
+      "category": "",
+      "part": "General"
     },
     {
       "name": "De-Esser Bypass",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "De-esser"
     },
     {
       "name": "De-Esser Band",
       "type": "button",
-      "category": ""
+      "category": "",
+      "part": "De-esser"
     },
     {
       "name": "De-Esser Soft",
       "type": "button",
-      "category": ""
+      "category": "",
+      "part": "De-esser"
     },
     {
       "name": "Gate Bypass",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "De-esser"
     },
     {
       "name": "Gate Fast Attack",
       "type": "button",
-      "category": "Fast Attack"
+      "category": "Fast Attack",
+      "part": "Gate"
     },
     {
       "name": "EQ Bypass",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": "EQ"
     },
     {
       "name": "Compressor Bypass",
       "type": "button",
-      "category": "Bypass"
+      "category": "Bypass",
+      "part": "Comp"
     },
     {
       "name": "Compressor Fast Attack",
       "type": "button",
-      "category": "Fast Attack"
+      "category": "Fast Attack",
+      "part": "Comp"
     },
     {
       "name": "Compressor Auto Release",
       "type": "button",
-      "category": "Auto Release"
+      "category": "Auto Release",
+      "part": "Comp"
     },
     {
       "name": "Compressor External Sidechain",
       "type": "button",
-      "category": "Ext Sidechain"
+      "category": "Ext Sidechain",
+      "part": "Comp"
     },
     {
       "name": "Compressor External Sidechain",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Bypass",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Wet",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     },
     {
       "name": "Delta",
       "type": "",
-      "category": ""
+      "category": "",
+      "part": ""
     }
   ],
-  "type": "channel"
+  "type": "channel",
+  "parts": [
+    "Pre-amp",
+    "De-esser",
+    "Gate",
+    "EQ",
+    "Comp",
+    "General"
+  ]
 }
