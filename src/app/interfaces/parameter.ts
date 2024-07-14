@@ -5,4 +5,5 @@ export interface Parameter {
     type: string;
     category?:string;
     part?:string;
+    id?:number;
 }

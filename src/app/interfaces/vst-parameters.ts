@@ -4,5 +4,6 @@ export interface VstParameters {
     vstName: string;
     type?: string;
     parts?:string[];
-    parameters:Parameter[]
+    parameters:Parameter[];
+    linkPartParam:any[][];
 }

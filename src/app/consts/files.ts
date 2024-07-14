@@ -1,4 +1,4 @@
-export const files: any = [
+export const files: any[] = [
     {
         dirName:"channel",
         files:[
@@ -10,6 +10,7 @@ export const files: any = [
             "dd-channel2",
             "hq2",
             "loaded",
+            "Scheps Omni",
             "sslgchannel",
         ]
     },
@@ -69,7 +70,6 @@ export const files: any = [
             "Kramer HLS",
             "Maag EQ2",
             "PTEq-X",
-            "ReaDelay",
             "SGA1566",
             "SonEQ",
             "TDR VOS SlickEQ",

@@ -27,7 +27,11 @@ export class HomeComponent {
   category:string[] = [];
   paramCats = paramCats;
   parts:string[] = [];
+  partModify:boolean[] = [];
   paramPart:string[] = [];
+  paramsByPart: any[][] = [];
+  paramsByPartModify: boolean[][] = [];
+
 
   constructor(dataLoader:LoadDatasService){
     this.dataLoader = dataLoader;
@@ -38,16 +42,48 @@ export class HomeComponent {
     this.category = [];
     this.type = "";
     this.parts = [];
+    this.partModify = [];
     this.paramPart = [];
-    this.loaded$ = this.dataLoader.getVSTData(this.url + ".json");
+    this.loaded$ = this.dataLoader.getVSTData(this.url + ".json").pipe(
+      map(data=>{
+        data.parameters.map((value:any, id:number)=>{
+          data.parameters[id] = {...value, id}
+        })
+        data.parts.sort((a:any, b:any)=>{
+          return a < b ? -1 : 1;
+        })
+        let linkPartParam:any[][] = [];
+        data.parts.map((value:string, key:number)=>{
+          linkPartParam.push([])
+          data.parameters.map((val:any)=>{
+            if (value === val.part){
+              linkPartParam[key].push(val.id);
+            }
+          })
+        })
+        data = {...data, linkPartParam}
+        return data;
+      })
+    );
     this.loaded$.subscribe(value=>{
       if (value.type !== undefined) this.type = value.type;
-      value.parameters.map(val=>{
+      value.parts?.map(val=>{
+        this.parts.push(val);
+        this.partModify.push(false);
+        this.paramsByPart.push([]);
+        this.paramsByPartModify.push([])
+      });
+      value.parameters.map((val, key)=>{
         this.typeParamOf.push(val.type);
         this.category.push(val.category!==undefined?val.category:"");
         this.paramPart.push(val.part!==undefined?val.part:"");
+        this.parts.map((res, index)=>{
+          if (res == val.part){
+            this.paramsByPart[index].push(key);
+            this.paramsByPartModify[index].push(false);
+          }
+        })
       })
-      value.parts?.map(val=>this.parts.push(val));
     })
   }
 
@@ -56,7 +92,7 @@ export class HomeComponent {
   }
   addPart(){
     this.parts.push("");
-    console.log(this.parts)
+    this.partModify.push(true)
   }
 
   submit(){
