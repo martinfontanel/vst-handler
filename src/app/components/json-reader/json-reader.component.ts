@@ -11,59 +11,58 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [CommonModule, FormsModule],
   templateUrl: './json-reader.component.html',
-  styleUrl: './json-reader.component.scss'
+  styleUrl: './json-reader.component.scss',
 })
 export class JsonReaderComponent {
+  dataLoader: LoadDatasService;
+  loaded$!: Observable<VstParameters>;
+  files: any = files;
+  url!: string;
+  type!: string;
+  typeParam: string[] = ['knob', 'button', 'indent', ''];
+  typeParamOf: string[] = [];
+  globalObject: VstParameters[] = [];
+  globalExport!: string;
 
-  dataLoader:LoadDatasService;
-  loaded$!:Observable<VstParameters>;
-  files:any = files;
-  url!:string;
-  type!:string;
-  typeParam:string[] = ["knob", "button","indent" , ""];
-  typeParamOf:string[] = [];
-  globalObject:VstParameters[] = [];
-  globalExport!:string;
-  
-  constructor(dataLoader:LoadDatasService){
+  constructor(dataLoader: LoadDatasService) {
     this.dataLoader = dataLoader;
   }
 
-  loadFile(){
+  loadFile() {
     this.typeParamOf = [];
-    this.type = "";
-    this.loaded$ = this.dataLoader.getVSTData(this.url + ".json");
-    this.loaded$.subscribe(value=>{
-      value.parameters.map(val=>{
+    this.type = '';
+    this.loaded$ = this.dataLoader.getVSTData(this.url + '.json');
+    this.loaded$.subscribe((value) => {
+      value.parameters.map((val) => {
         this.typeParamOf.push(val.type);
-      })
-    })
+      });
+    });
   }
 
-  stringify(obj:any){
-    return JSON.stringify(obj)
+  stringify(obj: any) {
+    return JSON.stringify(obj);
   }
 
-  submit(){
-    let alreadyPushed:boolean = false;
-    let keyPushed:number;
-    this.loaded$.subscribe(value=>{
+  submit() {
+    let alreadyPushed: boolean = false;
+    let keyPushed: number;
+    this.loaded$.subscribe((value) => {
       value.type = this.type;
-      value.parameters.map((val, key)=>{
-        val.type = this.typeParamOf[key]
-      })
+      value.parameters.map((val, key) => {
+        val.type = this.typeParamOf[key];
+      });
 
-      this.globalObject.map((val, key)=>{
-        if (val.vstName == value.vstName){
+      this.globalObject.map((val, key) => {
+        if (val.vstName == value.vstName) {
           alreadyPushed = true;
           keyPushed = key;
         }
-      })
+      });
 
       if (!alreadyPushed) this.globalObject.push(value);
       else this.globalObject[keyPushed] = value;
 
-      this.globalExport = this.stringify(this.globalObject)
-    })
+      this.globalExport = this.stringify(this.globalObject);
+    });
   }
 }

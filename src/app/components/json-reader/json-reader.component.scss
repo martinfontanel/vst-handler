@@ -1,17 +1,17 @@
-.content{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    gap:2em
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 2em;
 }
-.parameter{
-    display: flex;
-    justify-content: space-between;
-    flex: 2;
+.parameter {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
 }
-.parameter:hover{
-    background-color: beige;
+.parameter:hover {
+  background-color: beige;
 }
-.export{
-    flex:5;
+.export {
+  flex: 5;
 }

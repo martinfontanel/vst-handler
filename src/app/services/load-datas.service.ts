@@ -5,23 +5,22 @@ import { HttpClient } from '@angular/common/http';
 import { files } from '../consts/files';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class LoadDatasService {
+  constructor(private http: HttpClient) {}
 
-  constructor(private http:HttpClient) { }
-
-  getVSTData(url:string){
+  getVSTData(url: string) {
     return this.http.get<any>(url);
   }
 
-  getAllData(): Observable<any[]>[]{
-    let toReturn: Observable<any[]>[] = []
-    files.map(value=>{
-      value.files.map((val: string)=>{
+  getAllData(): Observable<any[]>[] {
+    let toReturn: Observable<any[]>[] = [];
+    files.map((value) => {
+      value.files.map((val: string) => {
         toReturn.push(this.getVSTData(value.dirName + '/' + val + '.json'));
-      })
-    })
+      });
+    });
     return toReturn;
   }
 }
