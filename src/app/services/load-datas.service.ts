@@ -11,6 +11,7 @@ export class LoadDatasService {
   constructor(private http: HttpClient) {}
 
   getVSTData(url: string) {
+    console.log(url);
     return this.http.get<any>(url);
   }
 

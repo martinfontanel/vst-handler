@@ -1,4 +1,4 @@
-<select [(ngModel)]="url" (change)="loadFile()">
+<select [(ngModel)]="url" (change)="loadFile(url)">
   @for (dir of files; track $index) {
   <optgroup [label]="dir.dirName">
     @for(file of dir.files; track $index){
@@ -8,11 +8,17 @@
   }
 </select>
 <div class="content">
-  @if(loaded$ | async){
+  @if(vstHandlerService.loaded$ | async){
   <div class="form">
     <h1>
-      {{ (loaded$ | async)?.vstName }}
+      {{ (vstHandlerService.loaded$ | async)?.vstName }}
     </h1>
+    <app-parameters></app-parameters>
+    <button (click)="submit()">ENREGISTRER</button>
+  </div>
+
+  } @if(loaded$ | async){
+  <div class="form">
     <div>
       type : @if((loaded$ | async)?.type === "" || (loaded$ | async)?.type ===
       undefined){
@@ -54,60 +60,8 @@
       </li>
     </ul>
     }
-
     <button (click)="addPart()">+</button>
-    <h2>Paramètres</h2>
-    <ul>
-      <li class="parameter header">
-        <div>nom</div>
-        <div class="type">type</div>
-        <div>catégorie</div>
-        <div>Partie</div>
-      </li>
-      @for(param of (loaded$ | async)?.parameters; track $index){
-      <li class="parameter">
-        <label [for]="param.name">{{ param.name }}</label>
-        <select
-          [(ngModel)]="typeParamOf[$index]"
-          [name]="param.name"
-          class="type"
-          (change)="changeParam($index, 'type')"
-        >
-          <option value=""></option>
-          @for(type of typeParam; track $index){
-          <option>{{ type }}</option>
-          }
-        </select>
-        <div>
-          <select
-            [(ngModel)]="category[$index]"
-            (change)="changeParam($index, 'cat')"
-          >
-            <option value=""></option>
-            @for(paramCat of paramCats; track paramCat){
-            <optgroup [label]="paramCat.categoryName">
-              @for (paramAsign of paramCat.childrenParam; track paramAsign) {
-              @if (paramAsign.type == param.type){
-              <option>{{ paramAsign.paramName }}</option>
-              } }
-            </optgroup>
-            }
-          </select>
-        </div>
-        <div>
-          <select
-            [(ngModel)]="paramPart[$index]"
-            (change)="changeParam($index, 'part')"
-          >
-            <option value=""></option>
-            @for (partOf of parts; track $index) {
-            <option>{{ partOf }}</option>
-            }
-          </select>
-        </div>
-      </li>
-      }
-    </ul>
+
     <button (click)="submit()">ENREGISTRER</button>
   </div>
 

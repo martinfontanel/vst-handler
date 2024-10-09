@@ -10,24 +10,7 @@
     flex: 3;
   }
 }
-.parameter {
-  display: flex;
-  justify-content: space-between;
-  & > * {
-    width: 30%;
-  }
-  .type {
-    width: 10%;
-  }
-  input,
-  select {
-    width: 100%;
-  }
-}
-.parameter.header {
-  border-bottom: 1px #000000 solid;
-  margin-bottom: 1em;
-}
+
 .parameter,
 .part {
   &:hover {

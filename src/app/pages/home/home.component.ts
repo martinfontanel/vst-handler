@@ -1,44 +1,61 @@
 import { Component } from '@angular/core';
 import { LoadDatasService } from '../../services/load-datas.service';
-import { Observable, filter, map } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { VstParameters } from '../../interfaces/vst-parameters';
 import { files } from '../../consts/files';
 import { FormsModule } from '@angular/forms';
 import { paramCats } from '../../consts/param-cat';
-import { Parameter } from '../../interfaces/parameter';
+import { ParametersComponent } from '../../components/parameters/parameters.component';
+import { VstHandlerService } from '../../services/vst-handler.service';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, ParametersComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
+  /** Services */
   dataLoader: LoadDatasService;
+  vstHandlerService: VstHandlerService;
+  /** Observables */
   loaded$!: Observable<VstParameters>;
+  /** ext const */
+  paramCats = paramCats;
   files: any = files;
+
+  /** strings */
   url!: string;
   type!: string;
   typeParam: string[] = ['knob', 'button', 'indent', ''];
   typeParamOf: string[] = [];
-  globalObject: VstParameters[] = [];
   globalExport!: string;
   category: string[] = [];
-  paramCats = paramCats;
   parts: string[] = [];
-  partModify: boolean[] = [];
   paramPart: string[] = [];
-  paramsByPart: any[][] = [];
-  paramsByPartModify: boolean[][] = [];
 
-  constructor(dataLoader: LoadDatasService) {
+  /** boolean */
+  paramsByPartModify: boolean[][] = [];
+  partModify: boolean[] = [];
+
+  /** any */
+  paramsByPart: any[][] = [];
+  globalObject: VstParameters[] = [];
+
+  constructor(
+    dataLoader: LoadDatasService,
+    vstHandlerService: VstHandlerService
+  ) {
     this.dataLoader = dataLoader;
+    this.vstHandlerService = vstHandlerService;
   }
 
-  loadFile() {
-    this.typeParamOf = [];
+  /** TODO Remove when vstHandler is OK */
+  loadFile(url: string) {
+    this.vstHandlerService.loadFile(url);
+    /*this.typeParamOf = [];
     this.category = [];
     this.type = '';
     this.parts = [];
@@ -66,43 +83,23 @@ export class HomeComponent {
         data = { ...data, linkPartParam };
         return data;
       })
-    );
-    this.loaded$.subscribe((value) => {
-      if (value.type !== undefined) this.type = value.type;
-      value.parts?.map((val) => {
-        this.parts.push(val);
-        this.partModify.push(false);
-        this.paramsByPart.push([]);
-        this.paramsByPartModify.push([]);
-      });
-      value.parameters.map((val, key) => {
-        this.typeParamOf.push(val.type);
-        this.category.push(val.category !== undefined ? val.category : '');
-        this.paramPart.push(val.part !== undefined ? val.part : '');
-        this.parts.map((res, index) => {
-          if (res == val.part) {
-            this.paramsByPart[index].push(key);
-            this.paramsByPartModify[index].push(false);
-          }
-        });
-      });
-    });
+    );*/
   }
-
+  /** TODO Remove when vstHandler is OK */
   stringify(obj: any) {
     return JSON.stringify(obj);
   }
-
+  /** TODO Remove when vstHandler is OK */
   addPart() {
     this.parts.push('');
     this.partModify.push(true);
   }
-
+  /** TODO Remove when vstHandler is OK */
   removePart(index: number) {
     this.parts.splice(index, 1);
     this.changePart();
   }
-
+  /** TODO Remove when vstHandler is OK */
   changePart() {
     this.loaded$ = this.loaded$.pipe(
       map((data) => {
@@ -111,7 +108,7 @@ export class HomeComponent {
       })
     );
   }
-
+  /** TODO Remove when vstHandler is OK */
   changeParam(index: number, attr: string) {
     this.loaded$ = this.loaded$.pipe(
       map((data) => {
@@ -125,7 +122,7 @@ export class HomeComponent {
       })
     );
   }
-
+  /** TODO Remove when vstHandler is OK */
   submit() {
     let alreadyPushed: boolean = false;
     let keyPushed: number;

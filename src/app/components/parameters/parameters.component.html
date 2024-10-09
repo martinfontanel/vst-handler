@@ -1,0 +1,52 @@
+<h2>Paramètres</h2>
+<ul>
+  <li class="parameter header">
+    <div>nom</div>
+    <div class="type">type</div>
+    <div>catégorie</div>
+    <div>Partie</div>
+  </li>
+</ul>
+@for(param of (vstHandlerService.loaded$ | async)?.parameters; track $index){
+<li class="parameter">
+  <label [for]="param.name">{{ param.name }}</label>
+  <select
+    [(ngModel)]="vstHandlerService.typeParamOf[$index]"
+    [name]="param.name"
+    class="type"
+    (change)="vstHandlerService.changeParam($index, 'type')"
+  >
+    <option value=""></option>
+    @for(type of vstHandlerService.typeParam; track $index){
+    <option>{{ type }}</option>
+    }
+  </select>
+  <div>
+    <select
+      [(ngModel)]="vstHandlerService.category[$index]"
+      (change)="vstHandlerService.changeParam($index, 'cat')"
+    >
+      <option value=""></option>
+      @for(paramCat of vstHandlerService.paramCats; track paramCat){
+      <optgroup [label]="paramCat.categoryName">
+        @for (paramAsign of paramCat.childrenParam; track paramAsign) { @if
+        (paramAsign.type == param.type){
+        <option>{{ paramAsign.paramName }}</option>
+        } }
+      </optgroup>
+      }
+    </select>
+  </div>
+  <div>
+    <select
+      [(ngModel)]="vstHandlerService.paramPart[$index]"
+      (change)="vstHandlerService.changeParam($index, 'part')"
+    >
+      <option value=""></option>
+      @for (partOf of vstHandlerService.parts; track $index) {
+      <option>{{ partOf }}</option>
+      }
+    </select>
+  </div>
+</li>
+}
