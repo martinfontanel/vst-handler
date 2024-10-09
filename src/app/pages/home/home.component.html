@@ -13,55 +13,8 @@
     <h1>
       {{ (vstHandlerService.loaded$ | async)?.vstName }}
     </h1>
+    <app-parameters-by-parts></app-parameters-by-parts>
     <app-parameters></app-parameters>
-    <button (click)="submit()">ENREGISTRER</button>
-  </div>
-
-  } @if(loaded$ | async){
-  <div class="form">
-    <div>
-      type : @if((loaded$ | async)?.type === "" || (loaded$ | async)?.type ===
-      undefined){
-      <div>
-        <input [(ngModel)]="type" />
-      </div>
-      } @else {
-      {{ (loaded$ | async)?.type }}
-      }
-    </div>
-    <h2>Parties</h2>
-    @for (myItem of (loaded$ | async)?.linkPartParam; track $index) {
-    <div class="part">
-      @if(partModify[$index]){
-      <input [(ngModel)]="parts[$index]" (change)="changePart()" />
-      } @else {
-      <div (dblclick)="partModify[$index] = true" style="font-weight: bold">
-        {{ parts[$index] }}
-      </div>
-      }
-      <div>
-        <button (click)="removePart($index)">-</button>
-        @if(partModify[$index]){
-        <button
-          (click)="partModify[$index] = false"
-          [disabled]="parts[$index] == ''"
-        >
-          OK
-        </button>
-        }
-      </div>
-    </div>
-    <ul>
-      <li class="parameter header">
-        <div>nom</div>
-        <div class="type">type</div>
-        <div>catégorie</div>
-        <div>Partie</div>
-      </li>
-    </ul>
-    }
-    <button (click)="addPart()">+</button>
-
     <button (click)="submit()">ENREGISTRER</button>
   </div>
 

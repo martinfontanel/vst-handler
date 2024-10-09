@@ -78,6 +78,7 @@ export class VstHandlerService {
           }
         });
       });
+      console.log(this.paramsByPart);
     });
   }
 
@@ -90,6 +91,25 @@ export class VstHandlerService {
           data.parameters[index].category = this.category[index];
         if (attr === 'part')
           data.parameters[index].part = this.paramPart[index];
+        return data;
+      })
+    );
+  }
+
+  addPart() {
+    this.parts.push('');
+    this.partModify.push(true);
+  }
+
+  removePart(index: number) {
+    this.parts.splice(index, 1);
+    this.changePart();
+  }
+
+  changePart() {
+    this.loaded$ = this.loaded$.pipe(
+      map((data) => {
+        data.parts = this.parts;
         return data;
       })
     );

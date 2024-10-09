@@ -1,1 +1,49 @@
-<p>parameters-by-parts works!</p>
+<div>
+  type : @if((vstHandlerService.loaded$ | async)?.type === "" ||
+  (vstHandlerService.loaded$ | async)?.type === undefined){
+  <div>
+    <input [(ngModel)]="vstHandlerService.type" />
+  </div>
+  } @else {
+  {{ (vstHandlerService.loaded$ | async)?.type }}
+  }
+</div>
+<h2>Parties</h2>
+@for (myItem of (vstHandlerService.loaded$ | async)?.linkPartParam; track
+$index) {
+<div class="part">
+  @if(vstHandlerService.partModify[$index]){
+  <input
+    [(ngModel)]="vstHandlerService.parts[$index]"
+    (change)="vstHandlerService.changePart()"
+  />
+  } @else {
+  <div
+    (dblclick)="vstHandlerService.partModify[$index] = true"
+    style="font-weight: bold"
+  >
+    {{ vstHandlerService.parts[$index] }}
+  </div>
+  }
+  <div>
+    <button (click)="vstHandlerService.removePart($index)">-</button>
+    @if(vstHandlerService.partModify[$index]){
+    <button
+      (click)="vstHandlerService.partModify[$index] = false"
+      [disabled]="vstHandlerService.parts[$index] == ''"
+    >
+      OK
+    </button>
+    }
+  </div>
+</div>
+<ul>
+  <li class="parameter header">
+    <div>nom</div>
+    <div class="type">type</div>
+    <div>catégorie</div>
+    <div>Partie</div>
+  </li>
+</ul>
+}
+<button (click)="vstHandlerService.addPart()">+</button>

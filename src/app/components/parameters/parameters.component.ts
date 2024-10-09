@@ -1,9 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { VstParameters } from '../../interfaces/vst-parameters';
-import { map, Observable } from 'rxjs';
-import { paramCats } from '../../consts/param-cat';
 import { VstHandlerService } from '../../services/vst-handler.service';
 
 @Component({

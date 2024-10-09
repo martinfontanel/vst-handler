@@ -8,11 +8,17 @@ import { FormsModule } from '@angular/forms';
 import { paramCats } from '../../consts/param-cat';
 import { ParametersComponent } from '../../components/parameters/parameters.component';
 import { VstHandlerService } from '../../services/vst-handler.service';
+import { ParametersByPartsComponent } from '../../components/parameters-by-parts/parameters-by-parts.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, FormsModule, ParametersComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ParametersComponent,
+    ParametersByPartsComponent,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
