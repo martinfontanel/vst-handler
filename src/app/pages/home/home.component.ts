@@ -58,39 +58,10 @@ export class HomeComponent {
     this.vstHandlerService = vstHandlerService;
   }
 
-  /** TODO Remove when vstHandler is OK */
   loadFile(url: string) {
     this.vstHandlerService.loadFile(url);
-    /*this.typeParamOf = [];
-    this.category = [];
-    this.type = '';
-    this.parts = [];
-    this.partModify = [];
-    this.paramPart = [];
-    this.loaded$ = this.dataLoader.getVSTData(this.url + '.json').pipe(
-      map((data) => {
-        data.parameters.map((value: any, id: number) => {
-          data.parameters[id] = { ...value, id };
-        });
-        let linkPartParam: any[][] = [];
-        if (data.parts) {
-          data.parts.sort((a: any, b: any) => {
-            return a < b ? -1 : 1;
-          });
-          data.parts.map((value: string, key: number) => {
-            linkPartParam.push([]);
-            data.parameters.map((val: any) => {
-              if (value === val.part) {
-                linkPartParam[key].push(val.id);
-              }
-            });
-          });
-        }
-        data = { ...data, linkPartParam };
-        return data;
-      })
-    );*/
   }
+
   /** TODO Remove when vstHandler is OK */
   stringify(obj: any) {
     return JSON.stringify(obj);

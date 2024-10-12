@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
-import { map, Observable } from 'rxjs';
+import { filter, map, Observable } from 'rxjs';
 import { VstParameters } from '../interfaces/vst-parameters';
 import { LoadDatasService } from './load-datas.service';
 import { files } from '../consts/files';
 import { paramCats } from '../consts/param-cat';
+import { Parameter } from '../interfaces/parameter';
 
 @Injectable({
   providedIn: 'root',
@@ -24,6 +25,8 @@ export class VstHandlerService {
   paramPart: string[] = [];
   paramsByPart: any[][] = [];
   paramsByPartModify: boolean[][] = [];
+  noPartParams: Parameter[] = [];
+  withPartParams: Parameter[] = [];
 
   constructor(dataLoader: LoadDatasService) {
     this.dataLoader = dataLoader;
@@ -56,6 +59,7 @@ export class VstHandlerService {
           });
         }
         data = { ...data, linkPartParam };
+        console.log('data', data);
         return data;
       })
     );
@@ -71,6 +75,11 @@ export class VstHandlerService {
         this.typeParamOf.push(val.type);
         this.category.push(val.category !== undefined ? val.category : '');
         this.paramPart.push(val.part !== undefined ? val.part : '');
+
+        if (val.part === '' || !val.part || val.part === undefined) {
+          this.noPartParams.push({ ...val, id: key });
+        }
+
         this.parts.map((res, index) => {
           if (res == val.part) {
             this.paramsByPart[index].push(key);
@@ -78,7 +87,6 @@ export class VstHandlerService {
           }
         });
       });
-      console.log(this.paramsByPart);
     });
   }
 
